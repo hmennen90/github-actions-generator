@@ -1,0 +1,737 @@
+[
+  {
+    "id": "none",
+    "label": "No Container",
+    "icon": "",
+    "images": []
+  },
+  {
+    "id": "ubuntu",
+    "label": "Ubuntu",
+    "icon": "🐧",
+    "images": [
+      {
+        "value": "ubuntu:26.04",
+        "label": "Ubuntu 26.04",
+        "preInstalled": [
+          "apt",
+          "bash",
+          "coreutils",
+          "curl",
+          "wget",
+          "git",
+          "GCC",
+          "make",
+          "Perl"
+        ],
+        "lastUpdated": "2026-04-07T04:04:45.061306Z",
+        "size": 41542737
+      },
+      {
+        "value": "ubuntu:25.10",
+        "label": "Ubuntu 25.10",
+        "preInstalled": [
+          "apt",
+          "bash",
+          "coreutils",
+          "curl",
+          "wget",
+          "git",
+          "GCC",
+          "make",
+          "Perl"
+        ],
+        "lastUpdated": "2026-01-03T00:04:55.372552Z",
+        "size": 34398943
+      },
+      {
+        "value": "ubuntu:25.04",
+        "label": "Ubuntu 25.04",
+        "preInstalled": [
+          "apt",
+          "bash",
+          "coreutils",
+          "curl",
+          "wget",
+          "git",
+          "GCC",
+          "make",
+          "Perl"
+        ],
+        "lastUpdated": "2025-10-13T08:04:17.476935Z",
+        "size": 29713967
+      },
+      {
+        "value": "ubuntu:24.10",
+        "label": "Ubuntu 24.10",
+        "preInstalled": [
+          "apt",
+          "bash",
+          "coreutils",
+          "curl",
+          "wget",
+          "git",
+          "GCC",
+          "make",
+          "Perl",
+          "Python 3.12",
+          "OpenSSL 3.0"
+        ],
+        "lastUpdated": "2025-07-02T11:04:21.442083Z",
+        "size": 30679690
+      },
+      {
+        "value": "ubuntu:24.04",
+        "label": "Ubuntu 24.04",
+        "preInstalled": [
+          "apt",
+          "bash",
+          "coreutils",
+          "curl",
+          "wget",
+          "git",
+          "GCC",
+          "make",
+          "Perl",
+          "Python 3.12",
+          "OpenSSL 3.0"
+        ],
+        "lastUpdated": "2026-04-07T04:04:29.582643Z",
+        "size": 29733459
+      },
+      {
+        "value": "ubuntu:22.04",
+        "label": "Ubuntu 22.04",
+        "preInstalled": [
+          "apt",
+          "bash",
+          "coreutils",
+          "curl",
+          "wget",
+          "git",
+          "GCC",
+          "make",
+          "Perl",
+          "Python 3.10",
+          "OpenSSL 3.0"
+        ],
+        "lastUpdated": "2026-04-02T19:04:12.594835Z",
+        "size": 29736413
+      },
+      {
+        "value": "ubuntu:20.04",
+        "label": "Ubuntu 20.04",
+        "preInstalled": [
+          "apt",
+          "bash",
+          "coreutils",
+          "curl",
+          "wget",
+          "git",
+          "GCC",
+          "make",
+          "Perl",
+          "Python 3.8",
+          "OpenSSL 1.1"
+        ],
+        "lastUpdated": "2025-04-09T08:04:13.997023Z",
+        "size": 27510394
+      }
+    ]
+  },
+  {
+    "id": "alpine",
+    "label": "Alpine",
+    "icon": "🏔️",
+    "images": [
+      {
+        "value": "alpine:3.23",
+        "label": "Alpine 3.23",
+        "preInstalled": [
+          "apk",
+          "busybox",
+          "musl libc",
+          "sh"
+        ],
+        "lastUpdated": "2026-01-28T04:26:31.353872Z",
+        "size": 3861821
+      },
+      {
+        "value": "alpine:3.22",
+        "label": "Alpine 3.22",
+        "preInstalled": [
+          "apk",
+          "busybox",
+          "musl libc",
+          "sh"
+        ],
+        "lastUpdated": "2026-01-28T04:26:24.745476Z",
+        "size": 3804875
+      },
+      {
+        "value": "alpine:3.21",
+        "label": "Alpine 3.21",
+        "preInstalled": [
+          "apk",
+          "busybox",
+          "musl libc",
+          "sh"
+        ],
+        "lastUpdated": "2026-01-28T04:26:02.369305Z",
+        "size": 3643742
+      },
+      {
+        "value": "alpine:3.20",
+        "label": "Alpine 3.20",
+        "preInstalled": [
+          "apk",
+          "busybox",
+          "musl libc",
+          "sh"
+        ],
+        "lastUpdated": "2026-01-28T04:25:40.765155Z",
+        "size": 3627864
+      },
+      {
+        "value": "alpine:3.19",
+        "label": "Alpine 3.19",
+        "preInstalled": [
+          "apk",
+          "busybox",
+          "musl libc",
+          "sh"
+        ],
+        "lastUpdated": "2025-10-09T00:24:20.169455Z",
+        "size": 3419815
+      },
+      {
+        "value": "alpine:3.18",
+        "label": "Alpine 3.18",
+        "preInstalled": [
+          "apk",
+          "busybox",
+          "musl libc",
+          "sh"
+        ],
+        "lastUpdated": "2025-02-14T19:24:45.68153Z",
+        "size": 3418409
+      },
+      {
+        "value": "alpine:3.17",
+        "label": "Alpine 3.17",
+        "preInstalled": [
+          "apk",
+          "busybox",
+          "musl libc",
+          "sh"
+        ],
+        "lastUpdated": "2024-11-12T04:25:17.131912Z",
+        "size": 3392252
+      },
+      {
+        "value": "alpine:3.16",
+        "label": "Alpine 3.16",
+        "preInstalled": [
+          "apk",
+          "busybox",
+          "musl libc",
+          "sh"
+        ],
+        "lastUpdated": "2024-01-27T00:47:58.320262Z",
+        "size": 2807837
+      },
+      {
+        "value": "alpine:3.15",
+        "label": "Alpine 3.15",
+        "preInstalled": [
+          "apk",
+          "busybox",
+          "musl libc",
+          "sh"
+        ],
+        "lastUpdated": "2023-12-01T02:20:33.160068Z",
+        "size": 2826431
+      },
+      {
+        "value": "alpine:3.14",
+        "label": "Alpine 3.14",
+        "preInstalled": [
+          "apk",
+          "busybox",
+          "musl libc",
+          "sh"
+        ],
+        "lastUpdated": "2023-03-29T18:24:41.665488Z",
+        "size": 2829647
+      }
+    ]
+  },
+  {
+    "id": "debian",
+    "label": "Debian",
+    "icon": "🌀",
+    "images": [
+      {
+        "value": "debian:trixie",
+        "label": "Debian trixie",
+        "preInstalled": [
+          "apt",
+          "bash",
+          "coreutils",
+          "Perl",
+          "GCC",
+          "make",
+          "Python 3.12",
+          "Git 2.43",
+          "OpenSSL 3.0"
+        ],
+        "lastUpdated": "2026-04-07T02:39:15.742068Z",
+        "size": 49297833
+      },
+      {
+        "value": "debian:sid",
+        "label": "Debian sid",
+        "preInstalled": [
+          "apt",
+          "bash",
+          "coreutils",
+          "Perl",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-04-07T02:37:02.021721Z",
+        "size": 48710648
+      },
+      {
+        "value": "debian:bullseye",
+        "label": "Debian bullseye",
+        "preInstalled": [
+          "apt",
+          "bash",
+          "coreutils",
+          "Perl",
+          "GCC",
+          "make",
+          "Python 3.9",
+          "Git 2.30",
+          "OpenSSL 1.1"
+        ],
+        "lastUpdated": "2026-04-07T02:33:58.11746Z",
+        "size": 53762793
+      },
+      {
+        "value": "debian:bookworm",
+        "label": "Debian bookworm",
+        "preInstalled": [
+          "apt",
+          "bash",
+          "coreutils",
+          "Perl",
+          "GCC",
+          "make",
+          "Python 3.11",
+          "Git 2.39",
+          "OpenSSL 3.0"
+        ],
+        "lastUpdated": "2026-04-07T02:33:31.173677Z",
+        "size": 48488823
+      }
+    ]
+  },
+  {
+    "id": "node",
+    "label": "Node.js",
+    "icon": "🟢",
+    "images": [
+      {
+        "value": "node:25",
+        "label": "Node.js 25",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack",
+          "Git",
+          "Python 3"
+        ],
+        "lastUpdated": "2026-04-07T23:40:41.19719Z",
+        "size": 407472319
+      },
+      {
+        "value": "node:24",
+        "label": "Node.js 24",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack",
+          "Git",
+          "Python 3"
+        ],
+        "lastUpdated": "2026-04-07T23:39:57.79635Z",
+        "size": 407715006
+      },
+      {
+        "value": "node:22",
+        "label": "Node.js 22",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack",
+          "Git",
+          "Python 3"
+        ],
+        "lastUpdated": "2026-04-07T23:39:07.319308Z",
+        "size": 408166585
+      },
+      {
+        "value": "node:20",
+        "label": "Node.js 20",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack",
+          "Git",
+          "Python 3"
+        ],
+        "lastUpdated": "2026-04-07T23:38:14.308923Z",
+        "size": 398333882
+      }
+    ]
+  },
+  {
+    "id": "python",
+    "label": "Python",
+    "icon": "🐍",
+    "images": [
+      {
+        "value": "python:3.14-alpine",
+        "label": "Python 3.14-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-04-11T20:08:13.151098Z",
+        "size": 17773290
+      },
+      {
+        "value": "python:3.14",
+        "label": "Python 3.14",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-04-08T20:12:29.427965Z",
+        "size": 414380721
+      },
+      {
+        "value": "python:3.13-alpine",
+        "label": "Python 3.13-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-04-11T23:07:36.504579Z",
+        "size": 16912619
+      },
+      {
+        "value": "python:3.13",
+        "label": "Python 3.13",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-04-09T23:08:58.527138Z",
+        "size": 412380797
+      }
+    ]
+  },
+  {
+    "id": "php",
+    "label": "PHP",
+    "icon": "🐘",
+    "images": [
+      {
+        "value": "php:8.5-alpine",
+        "label": "PHP 8.5-alpine",
+        "preInstalled": [
+          "PHP",
+          "php-cli"
+        ],
+        "lastUpdated": "2026-04-10T12:58:29.38352Z",
+        "size": 44862905
+      },
+      {
+        "value": "php:8.4-alpine",
+        "label": "PHP 8.4-alpine",
+        "preInstalled": [
+          "PHP",
+          "php-cli"
+        ],
+        "lastUpdated": "2026-04-10T21:57:13.224942Z",
+        "size": 41875824
+      },
+      {
+        "value": "php:8.4",
+        "label": "PHP 8.4",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-04-10T18:57:12.909638Z",
+        "size": 187986010
+      }
+    ]
+  },
+  {
+    "id": "golang",
+    "label": "Go",
+    "icon": "🔵",
+    "images": [
+      {
+        "value": "golang:1.26-alpine",
+        "label": "Go 1.26-alpine",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "ca-certificates"
+        ],
+        "lastUpdated": "2026-04-07T22:04:01.507108Z",
+        "size": 71378552
+      },
+      {
+        "value": "golang:1.26",
+        "label": "Go 1.26",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "GCC",
+          "ca-certificates",
+          "make"
+        ],
+        "lastUpdated": "2026-04-07T22:03:58.577259Z",
+        "size": 312090118
+      },
+      {
+        "value": "golang:1.25-alpine",
+        "label": "Go 1.25-alpine",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "ca-certificates"
+        ],
+        "lastUpdated": "2026-04-07T22:02:24.587027Z",
+        "size": 64342636
+      },
+      {
+        "value": "golang:1.25",
+        "label": "Go 1.25",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "GCC",
+          "ca-certificates",
+          "make"
+        ],
+        "lastUpdated": "2026-04-07T22:02:00.709939Z",
+        "size": 305054210
+      }
+    ]
+  },
+  {
+    "id": "rust",
+    "label": "Rust",
+    "icon": "🦀",
+    "images": [
+      {
+        "value": "rust:1.94",
+        "label": "Rust 1.94",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy",
+          "GCC",
+          "Git",
+          "make"
+        ],
+        "lastUpdated": "2026-04-08T04:44:33.254671Z",
+        "size": 591807989
+      },
+      {
+        "value": "rust:1.94-alpine",
+        "label": "Rust 1.94-alpine",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy"
+        ],
+        "lastUpdated": "2026-03-26T22:46:32.268215Z",
+        "size": 346201907
+      },
+      {
+        "value": "rust:1.93",
+        "label": "Rust 1.93",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy",
+          "GCC",
+          "Git",
+          "make"
+        ],
+        "lastUpdated": "2026-03-04T13:44:27.942321Z",
+        "size": 592812201
+      },
+      {
+        "value": "rust:1.93-alpine",
+        "label": "Rust 1.93-alpine",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy"
+        ],
+        "lastUpdated": "2026-02-13T00:46:19.782448Z",
+        "size": 346349610
+      }
+    ]
+  },
+  {
+    "id": "java",
+    "label": "Java",
+    "icon": "☕",
+    "images": [
+      {
+        "value": "eclipse-temurin:26",
+        "label": "Java 26",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-04-11T05:14:42.990397Z",
+        "size": 144197702
+      },
+      {
+        "value": "eclipse-temurin:25",
+        "label": "Java 25",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-04-09T23:15:19.996772Z",
+        "size": 139587341
+      },
+      {
+        "value": "eclipse-temurin:21",
+        "label": "Java 21",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-04-09T23:14:06.57176Z",
+        "size": 210569004
+      },
+      {
+        "value": "eclipse-temurin:17",
+        "label": "Java 17",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-04-09T23:12:56.473956Z",
+        "size": 198335473
+      }
+    ]
+  },
+  {
+    "id": "dotnet",
+    "label": ".NET",
+    "icon": "🔷",
+    "images": [
+      {
+        "value": "mcr.microsoft.com/dotnet/sdk:10.0",
+        "label": ".NET 10.0 SDK",
+        "preInstalled": [
+          ".NET SDK",
+          "dotnet CLI",
+          "NuGet",
+          "PowerShell"
+        ]
+      },
+      {
+        "value": "mcr.microsoft.com/dotnet/sdk:9.0",
+        "label": ".NET 9.0 SDK",
+        "preInstalled": [
+          ".NET SDK",
+          "dotnet CLI",
+          "NuGet",
+          "PowerShell"
+        ]
+      },
+      {
+        "value": "mcr.microsoft.com/dotnet/sdk:8.0",
+        "label": ".NET 8.0 SDK",
+        "preInstalled": [
+          ".NET SDK",
+          "dotnet CLI",
+          "NuGet",
+          "PowerShell"
+        ]
+      },
+      {
+        "value": "mcr.microsoft.com/dotnet/sdk:7.0",
+        "label": ".NET 7.0 SDK",
+        "preInstalled": [
+          ".NET SDK",
+          "dotnet CLI",
+          "NuGet",
+          "PowerShell"
+        ]
+      },
+      {
+        "value": "mcr.microsoft.com/dotnet/sdk:6.0",
+        "label": ".NET 6.0 SDK",
+        "preInstalled": [
+          ".NET SDK",
+          "dotnet CLI",
+          "NuGet",
+          "PowerShell"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "custom",
+    "label": "Custom",
+    "icon": "⚙️",
+    "images": []
+  }
+]

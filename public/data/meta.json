@@ -1,0 +1,8 @@
+{
+  "lastUpdated": "2026-04-12T08:49:59.048Z",
+  "sources": [
+    "Docker Hub API (hub.docker.com)",
+    "MCR (mcr.microsoft.com)",
+    "actions/runner-images (github.com)"
+  ]
+}

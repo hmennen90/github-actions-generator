@@ -1,0 +1,536 @@
+[
+  {
+    "value": "ubuntu-latest",
+    "label": "Ubuntu (latest)",
+    "billing": "free",
+    "preInstalled": [
+      {
+        "name": "Java",
+        "versions": [
+          "8",
+          "11",
+          "17",
+          "21",
+          "25"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ]
+      },
+      {
+        "name": "PHP",
+        "versions": [
+          "8.3"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "ubuntu-24.04",
+    "label": "Ubuntu 24.04",
+    "billing": "free",
+    "preInstalled": [
+      {
+        "name": "Java",
+        "versions": [
+          "8",
+          "11",
+          "17",
+          "21",
+          "25"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ]
+      },
+      {
+        "name": "PHP",
+        "versions": [
+          "8.3"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "ubuntu-22.04",
+    "label": "Ubuntu 22.04",
+    "billing": "free",
+    "preInstalled": [
+      {
+        "name": "Java",
+        "versions": [
+          "8",
+          "11",
+          "17",
+          "21",
+          "25"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ]
+      },
+      {
+        "name": "PHP",
+        "versions": [
+          "8.1"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "windows-latest",
+    "label": "Windows (latest)",
+    "billing": "free",
+    "note": "2x Linux cost on private repos",
+    "preInstalled": [
+      {
+        "name": "Java",
+        "versions": [
+          "8",
+          "11",
+          "17",
+          "21",
+          "25"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "windows-2022",
+    "label": "Windows 2022",
+    "billing": "free",
+    "note": "2x Linux cost on private repos",
+    "preInstalled": [
+      {
+        "name": "Java",
+        "versions": [
+          "8",
+          "11",
+          "17",
+          "21",
+          "25"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "macos-latest",
+    "label": "macOS (latest)",
+    "billing": "free",
+    "note": "10x Linux cost on private repos",
+    "preInstalled": [
+      {
+        "name": "Xcode",
+        "versions": [
+          "16.x"
+        ]
+      },
+      {
+        "name": "Python",
+        "versions": [
+          "3.12"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "versions": [
+          "20"
+        ]
+      },
+      {
+        "name": "Ruby",
+        "versions": [
+          "3.x"
+        ]
+      },
+      {
+        "name": "Java",
+        "versions": [
+          "11",
+          "17",
+          "21"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0"
+        ]
+      },
+      {
+        "name": "Go",
+        "versions": [
+          "1.22"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "macos-15",
+    "label": "macOS 15 (ARM)",
+    "billing": "free",
+    "note": "10x Linux cost on private repos",
+    "preInstalled": [
+      {
+        "name": "Xcode",
+        "versions": [
+          "16.x"
+        ]
+      },
+      {
+        "name": "Python",
+        "versions": [
+          "3.12"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "versions": [
+          "20"
+        ]
+      },
+      {
+        "name": "Ruby",
+        "versions": [
+          "3.x"
+        ]
+      },
+      {
+        "name": "Java",
+        "versions": [
+          "11",
+          "17",
+          "21"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0"
+        ]
+      },
+      {
+        "name": "Go",
+        "versions": [
+          "1.22"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "macos-14",
+    "label": "macOS 14 (ARM)",
+    "billing": "free",
+    "note": "10x Linux cost on private repos",
+    "preInstalled": [
+      {
+        "name": "Xcode",
+        "versions": [
+          "16.x"
+        ]
+      },
+      {
+        "name": "Python",
+        "versions": [
+          "3.12"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "versions": [
+          "20"
+        ]
+      },
+      {
+        "name": "Ruby",
+        "versions": [
+          "3.x"
+        ]
+      },
+      {
+        "name": "Java",
+        "versions": [
+          "11",
+          "17",
+          "21"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0"
+        ]
+      },
+      {
+        "name": "Go",
+        "versions": [
+          "1.22"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "macos-13",
+    "label": "macOS 13 (Intel)",
+    "billing": "free",
+    "note": "10x Linux cost on private repos",
+    "preInstalled": [
+      {
+        "name": "Xcode",
+        "versions": [
+          "16.x"
+        ]
+      },
+      {
+        "name": "Python",
+        "versions": [
+          "3.12"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "versions": [
+          "20"
+        ]
+      },
+      {
+        "name": "Ruby",
+        "versions": [
+          "3.x"
+        ]
+      },
+      {
+        "name": "Java",
+        "versions": [
+          "11",
+          "17",
+          "21"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0"
+        ]
+      },
+      {
+        "name": "Go",
+        "versions": [
+          "1.22"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "ubuntu-latest-4-cores",
+    "label": "Ubuntu 4-core",
+    "billing": "paid",
+    "note": "$0.012/min — requires Team/Enterprise",
+    "preInstalled": [
+      {
+        "name": "Java",
+        "versions": [
+          "8",
+          "11",
+          "17",
+          "21",
+          "25"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ]
+      },
+      {
+        "name": "PHP",
+        "versions": [
+          "8.3"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "ubuntu-latest-8-cores",
+    "label": "Ubuntu 8-core",
+    "billing": "paid",
+    "note": "$0.022/min — requires Team/Enterprise",
+    "preInstalled": [
+      {
+        "name": "Java",
+        "versions": [
+          "8",
+          "11",
+          "17",
+          "21",
+          "25"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ]
+      },
+      {
+        "name": "PHP",
+        "versions": [
+          "8.3"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "ubuntu-latest-16-cores",
+    "label": "Ubuntu 16-core",
+    "billing": "paid",
+    "note": "$0.042/min — requires Team/Enterprise",
+    "preInstalled": [
+      {
+        "name": "Java",
+        "versions": [
+          "8",
+          "11",
+          "17",
+          "21",
+          "25"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ]
+      },
+      {
+        "name": "PHP",
+        "versions": [
+          "8.3"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "windows-latest-8-cores",
+    "label": "Windows 8-core",
+    "billing": "paid",
+    "note": "$0.042/min — requires Team/Enterprise",
+    "preInstalled": [
+      {
+        "name": "Java",
+        "versions": [
+          "8",
+          "11",
+          "17",
+          "21",
+          "25"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0",
+          "9.0",
+          "10.0"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "macos-latest-xlarge",
+    "label": "macOS 12-core (Apple Silicon)",
+    "billing": "paid",
+    "note": "$0.077/min — requires Team/Enterprise",
+    "preInstalled": [
+      {
+        "name": "Xcode",
+        "versions": [
+          "16.x"
+        ]
+      },
+      {
+        "name": "Python",
+        "versions": [
+          "3.12"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "versions": [
+          "20"
+        ]
+      },
+      {
+        "name": "Ruby",
+        "versions": [
+          "3.x"
+        ]
+      },
+      {
+        "name": "Java",
+        "versions": [
+          "11",
+          "17",
+          "21"
+        ]
+      },
+      {
+        "name": ".NET SDK",
+        "versions": [
+          "8.0"
+        ]
+      },
+      {
+        "name": "Go",
+        "versions": [
+          "1.22"
+        ]
+      }
+    ]
+  },
+  {
+    "value": "self-hosted",
+    "label": "Self-hosted",
+    "billing": "free",
+    "note": "Your own infrastructure",
+    "preInstalled": []
+  }
+]
