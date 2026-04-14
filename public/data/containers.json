@@ -407,6 +407,21 @@
     "icon": "🐍",
     "images": [
       {
+        "value": "python:3.14",
+        "label": "Python 3.14",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-04-13T20:08:20.534983Z",
+        "size": 414380721
+      },
+      {
         "value": "python:3.14-alpine",
         "label": "Python 3.14-alpine",
         "preInstalled": [
@@ -419,8 +434,8 @@
         "size": 17773290
       },
       {
-        "value": "python:3.14",
-        "label": "Python 3.14",
+        "value": "python:3.13",
+        "label": "Python 3.13",
         "preInstalled": [
           "Python",
           "pip",
@@ -430,8 +445,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-04-08T20:12:29.427965Z",
-        "size": 414380721
+        "lastUpdated": "2026-04-13T20:07:46.512072Z",
+        "size": 412380797
       },
       {
         "value": "python:3.13-alpine",
@@ -446,8 +461,8 @@
         "size": 16912619
       },
       {
-        "value": "python:3.13",
-        "label": "Python 3.13",
+        "value": "python:3.12",
+        "label": "Python 3.12",
         "preInstalled": [
           "Python",
           "pip",
@@ -457,8 +472,38 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-04-09T23:08:58.527138Z",
-        "size": 412380797
+        "lastUpdated": "2026-04-13T23:07:11.883018Z",
+        "size": 410583908
+      },
+      {
+        "value": "python:3.11",
+        "label": "Python 3.11",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-04-14T02:07:01.380005Z",
+        "size": 408825726
+      },
+      {
+        "value": "python:3.10",
+        "label": "Python 3.10",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-04-14T02:06:27.096978Z",
+        "size": 406018610
       }
     ]
   },
