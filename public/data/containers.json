@@ -24,8 +24,8 @@
           "make",
           "Perl"
         ],
-        "lastUpdated": "2026-04-07T04:04:45.061306Z",
-        "size": 41542737
+        "lastUpdated": "2026-04-15T22:04:53.753692Z",
+        "size": 41456574
       },
       {
         "value": "ubuntu:25.10",
@@ -96,8 +96,8 @@
           "Python 3.12",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-04-07T04:04:29.582643Z",
-        "size": 29733459
+        "lastUpdated": "2026-04-15T22:04:37.358822Z",
+        "size": 29732978
       },
       {
         "value": "ubuntu:22.04",
@@ -115,8 +115,8 @@
           "Python 3.10",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-04-02T19:04:12.594835Z",
-        "size": 29736413
+        "lastUpdated": "2026-04-15T22:04:23.262469Z",
+        "size": 29736498
       },
       {
         "value": "ubuntu:20.04",
@@ -153,8 +153,8 @@
           "musl libc",
           "sh"
         ],
-        "lastUpdated": "2026-01-28T04:26:31.353872Z",
-        "size": 3861821
+        "lastUpdated": "2026-04-15T23:24:27.127889Z",
+        "size": 3864189
       },
       {
         "value": "alpine:3.22",
@@ -344,6 +344,30 @@
     "icon": "🟢",
     "images": [
       {
+        "value": "node:25.9-alpine",
+        "label": "Node.js 25.9-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-04-15T23:41:10.266033Z",
+        "size": 59845942
+      },
+      {
+        "value": "node:25-alpine",
+        "label": "Node.js 25-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-04-15T23:40:58.500856Z",
+        "size": 59845942
+      },
+      {
         "value": "node:25",
         "label": "Node.js 25",
         "preInstalled": [
@@ -356,6 +380,30 @@
         ],
         "lastUpdated": "2026-04-07T23:40:41.19719Z",
         "size": 407472319
+      },
+      {
+        "value": "node:24.14-alpine",
+        "label": "Node.js 24.14-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-04-15T23:40:27.791931Z",
+        "size": 56390354
+      },
+      {
+        "value": "node:24-alpine",
+        "label": "Node.js 24-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-04-15T23:40:15.75624Z",
+        "size": 56390354
       },
       {
         "value": "node:24",
@@ -372,6 +420,30 @@
         "size": 407715006
       },
       {
+        "value": "node:22.22-alpine",
+        "label": "Node.js 22.22-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-04-15T23:39:40.657126Z",
+        "size": 57088836
+      },
+      {
+        "value": "node:22-alpine",
+        "label": "Node.js 22-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-04-15T23:39:26.583773Z",
+        "size": 57088836
+      },
+      {
         "value": "node:22",
         "label": "Node.js 22",
         "preInstalled": [
@@ -386,18 +458,16 @@
         "size": 408166585
       },
       {
-        "value": "node:20",
-        "label": "Node.js 20",
+        "value": "node:20.20-alpine",
+        "label": "Node.js 20.20-alpine",
         "preInstalled": [
           "Node.js",
           "npm",
           "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
+          "corepack"
         ],
-        "lastUpdated": "2026-04-07T23:38:14.308923Z",
-        "size": 398333882
+        "lastUpdated": "2026-04-15T23:38:45.113449Z",
+        "size": 48356157
       }
     ]
   },
@@ -406,6 +476,18 @@
     "label": "Python",
     "icon": "🐍",
     "images": [
+      {
+        "value": "python:3.14-alpine",
+        "label": "Python 3.14-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-04-16T02:09:38.962766Z",
+        "size": 17714310
+      },
       {
         "value": "python:3.14",
         "label": "Python 3.14",
@@ -422,16 +504,16 @@
         "size": 414380721
       },
       {
-        "value": "python:3.14-alpine",
-        "label": "Python 3.14-alpine",
+        "value": "python:3.13-alpine",
+        "label": "Python 3.13-alpine",
         "preInstalled": [
           "Python",
           "pip",
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-04-11T20:08:13.151098Z",
-        "size": 17773290
+        "lastUpdated": "2026-04-16T02:08:51.4603Z",
+        "size": 16853793
       },
       {
         "value": "python:3.13",
@@ -449,16 +531,16 @@
         "size": 412380797
       },
       {
-        "value": "python:3.13-alpine",
-        "label": "Python 3.13-alpine",
+        "value": "python:3.12-alpine",
+        "label": "Python 3.12-alpine",
         "preInstalled": [
           "Python",
           "pip",
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-04-11T23:07:36.504579Z",
-        "size": 16912619
+        "lastUpdated": "2026-04-16T02:08:11.108383Z",
+        "size": 18064537
       },
       {
         "value": "python:3.12",
@@ -476,6 +558,18 @@
         "size": 410583908
       },
       {
+        "value": "python:3.11-alpine",
+        "label": "Python 3.11-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-04-16T02:07:27.014044Z",
+        "size": 20341022
+      },
+      {
         "value": "python:3.11",
         "label": "Python 3.11",
         "preInstalled": [
@@ -489,6 +583,18 @@
         ],
         "lastUpdated": "2026-04-14T02:07:01.380005Z",
         "size": 408825726
+      },
+      {
+        "value": "python:3.10-alpine",
+        "label": "Python 3.10-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-04-16T02:06:46.086568Z",
+        "size": 19773376
       },
       {
         "value": "python:3.10",
@@ -519,8 +625,8 @@
           "PHP",
           "php-cli"
         ],
-        "lastUpdated": "2026-04-10T12:58:29.38352Z",
-        "size": 44862905
+        "lastUpdated": "2026-04-16T03:58:43.074833Z",
+        "size": 44387128
       },
       {
         "value": "php:8.4-alpine",
@@ -529,23 +635,28 @@
           "PHP",
           "php-cli"
         ],
-        "lastUpdated": "2026-04-10T21:57:13.224942Z",
-        "size": 41875824
+        "lastUpdated": "2026-04-16T01:00:38.141288Z",
+        "size": 41395543
       },
       {
-        "value": "php:8.4",
-        "label": "PHP 8.4",
+        "value": "php:8.3-alpine",
+        "label": "PHP 8.3-alpine",
         "preInstalled": [
           "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
+          "php-cli"
         ],
-        "lastUpdated": "2026-04-10T18:57:12.909638Z",
-        "size": 187986010
+        "lastUpdated": "2026-04-16T00:57:58.124212Z",
+        "size": 37702912
+      },
+      {
+        "value": "php:8.2-alpine",
+        "label": "PHP 8.2-alpine",
+        "preInstalled": [
+          "PHP",
+          "php-cli"
+        ],
+        "lastUpdated": "2026-04-16T00:55:43.884791Z",
+        "size": 36880575
       }
     ]
   },
@@ -554,6 +665,17 @@
     "label": "Go",
     "icon": "🔵",
     "images": [
+      {
+        "value": "golang:1.26-alpine",
+        "label": "Go 1.26-alpine",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "ca-certificates"
+        ],
+        "lastUpdated": "2026-04-16T01:23:03.131119Z",
+        "size": 71375090
+      },
       {
         "value": "golang:1.26",
         "label": "Go 1.26",
@@ -568,15 +690,15 @@
         "size": 312090118
       },
       {
-        "value": "golang:1.26-alpine",
-        "label": "Go 1.26-alpine",
+        "value": "golang:1.25-alpine",
+        "label": "Go 1.25-alpine",
         "preInstalled": [
           "Go",
           "Git",
           "ca-certificates"
         ],
-        "lastUpdated": "2026-04-07T22:04:01.507108Z",
-        "size": 71378552
+        "lastUpdated": "2026-04-16T01:22:35.800636Z",
+        "size": 64339174
       },
       {
         "value": "golang:1.25",
@@ -590,17 +712,6 @@
         ],
         "lastUpdated": "2026-04-14T22:22:40.509856Z",
         "size": 305054210
-      },
-      {
-        "value": "golang:1.25-alpine",
-        "label": "Go 1.25-alpine",
-        "preInstalled": [
-          "Go",
-          "Git",
-          "ca-certificates"
-        ],
-        "lastUpdated": "2026-04-07T22:02:24.587027Z",
-        "size": 64342636
       }
     ]
   },
@@ -609,6 +720,18 @@
     "label": "Rust",
     "icon": "🦀",
     "images": [
+      {
+        "value": "rust:1.94-alpine",
+        "label": "Rust 1.94-alpine",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy"
+        ],
+        "lastUpdated": "2026-04-16T01:44:28.863469Z",
+        "size": 346198921
+      },
       {
         "value": "rust:1.94",
         "label": "Rust 1.94",
@@ -623,18 +746,6 @@
         ],
         "lastUpdated": "2026-04-14T07:44:28.036726Z",
         "size": 591807989
-      },
-      {
-        "value": "rust:1.94-alpine",
-        "label": "Rust 1.94-alpine",
-        "preInstalled": [
-          "Rust",
-          "Cargo",
-          "rustfmt",
-          "clippy"
-        ],
-        "lastUpdated": "2026-03-26T22:46:32.268215Z",
-        "size": 346201907
       },
       {
         "value": "rust:1.93",
@@ -678,8 +789,19 @@
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-04-14T23:20:23.990724Z",
-        "size": 144197702
+        "lastUpdated": "2026-04-15T23:22:58.946159Z",
+        "size": 141787322
+      },
+      {
+        "value": "eclipse-temurin:25",
+        "label": "Java 25",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-04-15T23:20:45.003206Z",
+        "size": 139586538
       },
       {
         "value": "eclipse-temurin:8",
@@ -689,8 +811,8 @@
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-04-14T23:22:05.419363Z",
-        "size": 101892496
+        "lastUpdated": "2026-04-15T23:25:07.826305Z",
+        "size": 101891951
       }
     ]
   },
