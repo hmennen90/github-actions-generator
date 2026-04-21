@@ -781,52 +781,7 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": [
-      {
-        "value": "eclipse-temurin:26",
-        "label": "Java 26",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-04-16T20:15:14.342444Z",
-        "size": 141787322
-      },
-      {
-        "value": "eclipse-temurin:25",
-        "label": "Java 25",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-04-16T20:14:13.272769Z",
-        "size": 139586538
-      },
-      {
-        "value": "eclipse-temurin:21",
-        "label": "Java 21",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-04-16T17:13:56.72912Z",
-        "size": 210568542
-      },
-      {
-        "value": "eclipse-temurin:17",
-        "label": "Java 17",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-04-16T17:12:51.293731Z",
-        "size": 198334673
-      }
-    ]
+    "images": []
   },
   {
     "id": "dotnet",
