@@ -487,23 +487,7 @@
     "id": "php",
     "label": "PHP",
     "icon": "🐘",
-    "images": [
-      {
-        "value": "php:8.2",
-        "label": "PHP 8.2",
-        "preInstalled": [
-          "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
-        ],
-        "lastUpdated": "2026-04-23T03:54:52.037364Z",
-        "size": 179663149
-      }
-    ]
+    "images": []
   },
   {
     "id": "golang",
