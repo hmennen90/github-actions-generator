@@ -487,7 +487,23 @@
     "id": "php",
     "label": "PHP",
     "icon": "🐘",
-    "images": []
+    "images": [
+      {
+        "value": "php:8.3",
+        "label": "PHP 8.3",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-04-26T18:56:02.262046Z",
+        "size": 180600503
+      }
+    ]
   },
   {
     "id": "golang",
@@ -504,7 +520,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-04-22T13:23:11.166238Z",
+        "lastUpdated": "2026-04-26T22:22:57.091647Z",
         "size": 312105435
       },
       {
@@ -528,7 +544,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-04-22T13:22:37.804907Z",
+        "lastUpdated": "2026-04-26T22:22:30.972926Z",
         "size": 305068597
       },
       {
