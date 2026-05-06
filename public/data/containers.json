@@ -640,19 +640,7 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": [
-      {
-        "value": "eclipse-temurin:25",
-        "label": "Java 25",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-05-01T02:14:32.026375Z",
-        "size": 139906528
-      }
-    ]
+    "images": []
   },
   {
     "id": "dotnet",
