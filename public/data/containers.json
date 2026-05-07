@@ -344,6 +344,44 @@
     "icon": "🟢",
     "images": [
       {
+        "value": "node:26.0-alpine",
+        "label": "Node.js 26.0-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-05-06T18:42:46.739031Z",
+        "size": 59399670
+      },
+      {
+        "value": "node:26-alpine",
+        "label": "Node.js 26-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-05-06T18:42:13.380716Z",
+        "size": 59399670
+      },
+      {
+        "value": "node:26",
+        "label": "Node.js 26",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack",
+          "Git",
+          "Python 3"
+        ],
+        "lastUpdated": "2026-05-06T18:42:07.914745Z",
+        "size": 441038404
+      },
+      {
         "value": "node:25",
         "label": "Node.js 25",
         "preInstalled": [
@@ -384,20 +422,6 @@
         ],
         "lastUpdated": "2026-04-22T17:39:05.662984Z",
         "size": 408183853
-      },
-      {
-        "value": "node:20",
-        "label": "Node.js 20",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
-        ],
-        "lastUpdated": "2026-04-22T17:38:14.523635Z",
-        "size": 398351173
       }
     ]
   },
