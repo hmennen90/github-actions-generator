@@ -354,7 +354,7 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-05-09T05:40:35.540312Z",
+        "lastUpdated": "2026-05-09T11:40:33.51617Z",
         "size": 441746158
       },
       {
@@ -368,7 +368,7 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-05-09T05:39:51.168886Z",
+        "lastUpdated": "2026-05-09T11:39:49.469797Z",
         "size": 407523757
       },
       {
@@ -382,7 +382,7 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-05-09T05:39:05.100028Z",
+        "lastUpdated": "2026-05-09T11:39:03.859352Z",
         "size": 408041077
       },
       {
@@ -396,7 +396,7 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-05-09T05:38:14.212818Z",
+        "lastUpdated": "2026-05-09T11:38:14.54654Z",
         "size": 408217978
       }
     ]
@@ -418,7 +418,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-09T05:10:22.149257Z",
+        "lastUpdated": "2026-05-09T14:08:11.439645Z",
         "size": 414435659
       },
       {
@@ -433,7 +433,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-09T05:09:41.083267Z",
+        "lastUpdated": "2026-05-09T17:08:32.238328Z",
         "size": 412444698
       },
       {
@@ -448,7 +448,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-09T05:08:56.105666Z",
+        "lastUpdated": "2026-05-09T17:07:49.294148Z",
         "size": 410665569
       },
       {
@@ -463,7 +463,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-09T05:07:50.021526Z",
+        "lastUpdated": "2026-05-09T17:07:09.187526Z",
         "size": 408915641
       },
       {
@@ -478,7 +478,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-09T05:06:43.151608Z",
+        "lastUpdated": "2026-05-09T17:06:28.424228Z",
         "size": 406098330
       }
     ]
@@ -488,16 +488,6 @@
     "label": "PHP",
     "icon": "🐘",
     "images": [
-      {
-        "value": "php:8.5-alpine",
-        "label": "PHP 8.5-alpine",
-        "preInstalled": [
-          "PHP",
-          "php-cli"
-        ],
-        "lastUpdated": "2026-05-09T01:15:21.37535Z",
-        "size": 44633825
-      },
       {
         "value": "php:8.5",
         "label": "PHP 8.5",
@@ -510,8 +500,23 @@
           "Git",
           "GCC"
         ],
-        "lastUpdated": "2026-05-09T01:15:18.405696Z",
+        "lastUpdated": "2026-05-10T00:58:30.013495Z",
         "size": 189184599
+      },
+      {
+        "value": "php:8.4",
+        "label": "PHP 8.4",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-05-10T03:57:30.813591Z",
+        "size": 185291307
       }
     ]
   },
@@ -530,7 +535,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-05-09T04:23:12.571972Z",
+        "lastUpdated": "2026-05-09T07:23:12.021209Z",
         "size": 312227659
       },
       {
@@ -554,7 +559,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-05-09T04:22:38.886759Z",
+        "lastUpdated": "2026-05-09T07:22:38.372059Z",
         "size": 305177774
       },
       {
@@ -587,7 +592,7 @@
           "Git",
           "make"
         ],
-        "lastUpdated": "2026-05-09T04:44:46.083649Z",
+        "lastUpdated": "2026-05-09T16:44:31.301133Z",
         "size": 594077198
       },
       {
