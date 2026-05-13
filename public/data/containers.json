@@ -407,18 +407,6 @@
     "icon": "🐍",
     "images": [
       {
-        "value": "python:3.14-alpine",
-        "label": "Python 3.14-alpine",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel"
-        ],
-        "lastUpdated": "2026-05-12T02:10:45.017177Z",
-        "size": 17765875
-      },
-      {
         "value": "python:3.14",
         "label": "Python 3.14",
         "preInstalled": [
@@ -430,8 +418,20 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-12T02:10:41.743608Z",
+        "lastUpdated": "2026-05-13T02:08:44.953177Z",
         "size": 414581044
+      },
+      {
+        "value": "python:3.14-alpine",
+        "label": "Python 3.14-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-05-12T02:10:45.017177Z",
+        "size": 17765875
       },
       {
         "value": "python:3.13",
@@ -445,7 +445,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-09T17:08:32.238328Z",
+        "lastUpdated": "2026-05-13T02:08:04.361916Z",
         "size": 412444698
       },
       {
@@ -501,21 +501,6 @@
     "icon": "🐘",
     "images": [
       {
-        "value": "php:8.5",
-        "label": "PHP 8.5",
-        "preInstalled": [
-          "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
-        ],
-        "lastUpdated": "2026-05-10T00:58:30.013495Z",
-        "size": 189184599
-      },
-      {
         "value": "php:8.4",
         "label": "PHP 8.4",
         "preInstalled": [
@@ -529,6 +514,21 @@
         ],
         "lastUpdated": "2026-05-10T03:57:30.813591Z",
         "size": 185291307
+      },
+      {
+        "value": "php:8.3",
+        "label": "PHP 8.3",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-05-12T21:56:01.79898Z",
+        "size": 180605531
       },
       {
         "value": "php:8.2",
@@ -562,7 +562,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-05-09T07:23:12.021209Z",
+        "lastUpdated": "2026-05-13T01:23:17.072104Z",
         "size": 312227659
       },
       {
@@ -586,7 +586,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-05-09T07:22:38.372059Z",
+        "lastUpdated": "2026-05-13T01:22:43.334594Z",
         "size": 305177774
       },
       {
@@ -684,15 +684,15 @@
     "icon": "☕",
     "images": [
       {
-        "value": "eclipse-temurin:25",
-        "label": "Java 25",
+        "value": "eclipse-temurin:8",
+        "label": "Java 8",
         "preInstalled": [
           "Java JDK",
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-05-08T02:25:09.209902Z",
-        "size": 150384376
+        "lastUpdated": "2026-05-13T02:25:27.19208Z",
+        "size": 116932799
       }
     ]
   },
