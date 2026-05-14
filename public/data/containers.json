@@ -462,36 +462,6 @@
         ],
         "lastUpdated": "2026-05-09T17:07:49.294148Z",
         "size": 410665569
-      },
-      {
-        "value": "python:3.11",
-        "label": "Python 3.11",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel",
-          "Git",
-          "GCC",
-          "make"
-        ],
-        "lastUpdated": "2026-05-09T17:07:09.187526Z",
-        "size": 408915641
-      },
-      {
-        "value": "python:3.10",
-        "label": "Python 3.10",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel",
-          "Git",
-          "GCC",
-          "make"
-        ],
-        "lastUpdated": "2026-05-09T17:06:28.424228Z",
-        "size": 406098330
       }
     ]
   },
@@ -562,7 +532,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-05-13T01:23:17.072104Z",
+        "lastUpdated": "2026-05-13T19:23:02.602043Z",
         "size": 312227659
       },
       {
@@ -586,7 +556,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-05-13T01:22:43.334594Z",
+        "lastUpdated": "2026-05-13T19:22:35.403578Z",
         "size": 305177774
       },
       {
