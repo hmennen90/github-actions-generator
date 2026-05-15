@@ -386,6 +386,30 @@
         "size": 408041077
       },
       {
+        "value": "node:22.22-alpine",
+        "label": "Node.js 22.22-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-05-14T20:38:40.147021Z",
+        "size": 57440800
+      },
+      {
+        "value": "node:22-alpine",
+        "label": "Node.js 22-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-05-14T20:38:15.088255Z",
+        "size": 57440800
+      },
+      {
         "value": "node:22",
         "label": "Node.js 22",
         "preInstalled": [
@@ -396,8 +420,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-05-09T11:38:14.54654Z",
-        "size": 408217978
+        "lastUpdated": "2026-05-14T17:38:27.637481Z",
+        "size": 408307996
       }
     ]
   },
@@ -418,7 +442,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-13T02:08:44.953177Z",
+        "lastUpdated": "2026-05-15T02:08:14.777915Z",
         "size": 414581044
       },
       {
@@ -445,7 +469,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-13T02:08:04.361916Z",
+        "lastUpdated": "2026-05-15T05:07:40.706976Z",
         "size": 412444698
       },
       {
