@@ -285,8 +285,8 @@
           "Git 2.43",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-05-08T23:28:03.341312Z",
-        "size": 49302320
+        "lastUpdated": "2026-05-20T02:25:11.724407Z",
+        "size": 49310623
       },
       {
         "value": "debian:sid",
@@ -299,25 +299,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-08T23:26:31.912429Z",
-        "size": 48702238
-      },
-      {
-        "value": "debian:bookworm",
-        "label": "Debian bookworm",
-        "preInstalled": [
-          "apt",
-          "bash",
-          "coreutils",
-          "Perl",
-          "GCC",
-          "make",
-          "Python 3.11",
-          "Git 2.39",
-          "OpenSSL 3.0"
-        ],
-        "lastUpdated": "2026-05-08T23:23:51.257036Z",
-        "size": 48488676
+        "lastUpdated": "2026-05-20T02:24:22.25081Z",
+        "size": 48712012
       },
       {
         "value": "debian:bullseye",
@@ -333,8 +316,25 @@
           "Git 2.30",
           "OpenSSL 1.1"
         ],
-        "lastUpdated": "2026-05-08T20:25:11.085306Z",
-        "size": 53763343
+        "lastUpdated": "2026-05-19T22:58:27.545955Z",
+        "size": 53768852
+      },
+      {
+        "value": "debian:bookworm",
+        "label": "Debian bookworm",
+        "preInstalled": [
+          "apt",
+          "bash",
+          "coreutils",
+          "Perl",
+          "GCC",
+          "make",
+          "Python 3.11",
+          "Git 2.39",
+          "OpenSSL 3.0"
+        ],
+        "lastUpdated": "2026-05-19T22:58:15.407501Z",
+        "size": 48495432
       }
     ]
   },
@@ -354,8 +354,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-05-09T11:40:33.51617Z",
-        "size": 441746158
+        "lastUpdated": "2026-05-20T05:42:59.643572Z",
+        "size": 441784281
       },
       {
         "value": "node:25",
@@ -368,8 +368,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-05-09T11:39:49.469797Z",
-        "size": 407523757
+        "lastUpdated": "2026-05-20T05:41:36.611551Z",
+        "size": 407545360
       },
       {
         "value": "node:24",
@@ -382,46 +382,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-05-09T11:39:03.859352Z",
-        "size": 408041077
-      },
-      {
-        "value": "node:22.22-alpine",
-        "label": "Node.js 22.22-alpine",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack"
-        ],
-        "lastUpdated": "2026-05-14T20:38:40.147021Z",
-        "size": 57440800
-      },
-      {
-        "value": "node:22-alpine",
-        "label": "Node.js 22-alpine",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack"
-        ],
-        "lastUpdated": "2026-05-14T20:38:15.088255Z",
-        "size": 57440800
-      },
-      {
-        "value": "node:22",
-        "label": "Node.js 22",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
-        ],
-        "lastUpdated": "2026-05-14T17:38:27.637481Z",
-        "size": 408307996
+        "lastUpdated": "2026-05-20T05:40:09.422455Z",
+        "size": 408062655
       }
     ]
   },
@@ -430,6 +392,21 @@
     "label": "Python",
     "icon": "🐍",
     "images": [
+      {
+        "value": "python:3.14",
+        "label": "Python 3.14",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-05-20T05:13:08.14807Z",
+        "size": 414581044
+      },
       {
         "value": "python:3.14-alpine",
         "label": "Python 3.14-alpine",
@@ -443,21 +420,6 @@
         "size": 17765875
       },
       {
-        "value": "python:3.14",
-        "label": "Python 3.14",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel",
-          "Git",
-          "GCC",
-          "make"
-        ],
-        "lastUpdated": "2026-05-15T02:08:14.777915Z",
-        "size": 414581044
-      },
-      {
         "value": "python:3.13",
         "label": "Python 3.13",
         "preInstalled": [
@@ -469,7 +431,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-15T05:07:40.706976Z",
+        "lastUpdated": "2026-05-20T05:11:48.94157Z",
         "size": 412444698
       },
       {
@@ -484,7 +446,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-15T08:07:26.39375Z",
+        "lastUpdated": "2026-05-20T05:10:09.098347Z",
         "size": 410665569
       },
       {
@@ -499,7 +461,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-15T08:06:51.151598Z",
+        "lastUpdated": "2026-05-20T05:08:26.172007Z",
         "size": 408915641
       },
       {
@@ -514,7 +476,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-15T11:06:27.024571Z",
+        "lastUpdated": "2026-05-20T05:07:10.555618Z",
         "size": 406098330
       }
     ]
@@ -536,8 +498,8 @@
           "Git",
           "GCC"
         ],
-        "lastUpdated": "2026-05-10T03:57:30.813591Z",
-        "size": 185291307
+        "lastUpdated": "2026-05-20T07:01:14.419717Z",
+        "size": 185288626
       },
       {
         "value": "php:8.3",
@@ -551,8 +513,8 @@
           "Git",
           "GCC"
         ],
-        "lastUpdated": "2026-05-12T21:56:01.79898Z",
-        "size": 180605531
+        "lastUpdated": "2026-05-20T06:57:45.585559Z",
+        "size": 180602069
       },
       {
         "value": "php:8.2",
@@ -566,8 +528,8 @@
           "Git",
           "GCC"
         ],
-        "lastUpdated": "2026-05-10T12:54:47.710541Z",
-        "size": 179672295
+        "lastUpdated": "2026-05-20T06:55:00.006095Z",
+        "size": 179669766
       }
     ]
   },
@@ -586,7 +548,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-05-13T19:23:02.602043Z",
+        "lastUpdated": "2026-05-20T04:23:29.738231Z",
         "size": 312227659
       },
       {
@@ -610,7 +572,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-05-13T19:22:35.403578Z",
+        "lastUpdated": "2026-05-20T04:22:50.766585Z",
         "size": 305177774
       },
       {
@@ -643,7 +605,7 @@
           "Git",
           "make"
         ],
-        "lastUpdated": "2026-05-15T16:44:27.936438Z",
+        "lastUpdated": "2026-05-20T04:45:01.311504Z",
         "size": 594077198
       },
       {
