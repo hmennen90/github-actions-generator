@@ -356,44 +356,28 @@
         "size": 62367419
       },
       {
-        "value": "node:26-alpine",
-        "label": "Node.js 26-alpine",
+        "value": "node:24.16-alpine",
+        "label": "Node.js 24.16-alpine",
         "preInstalled": [
           "Node.js",
           "npm",
           "yarn",
           "corepack"
         ],
-        "lastUpdated": "2026-05-20T23:39:46.764704Z",
-        "size": 62367419
+        "lastUpdated": "2026-05-21T23:38:58.845744Z",
+        "size": 57406341
       },
       {
-        "value": "node:26",
-        "label": "Node.js 26",
+        "value": "node:24-alpine",
+        "label": "Node.js 24-alpine",
         "preInstalled": [
           "Node.js",
           "npm",
           "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
+          "corepack"
         ],
-        "lastUpdated": "2026-05-20T23:39:39.701573Z",
-        "size": 441861505
-      },
-      {
-        "value": "node:25",
-        "label": "Node.js 25",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
-        ],
-        "lastUpdated": "2026-05-20T11:39:36.452047Z",
-        "size": 407545360
+        "lastUpdated": "2026-05-21T23:38:41.142502Z",
+        "size": 57406341
       },
       {
         "value": "node:24",
@@ -406,22 +390,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-05-20T11:38:58.596237Z",
-        "size": 408062655
-      },
-      {
-        "value": "node:22",
-        "label": "Node.js 22",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
-        ],
-        "lastUpdated": "2026-05-20T11:38:15.469475Z",
-        "size": 408329607
+        "lastUpdated": "2026-05-21T20:38:49.570783Z",
+        "size": 408497941
       }
     ]
   },
