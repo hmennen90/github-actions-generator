@@ -538,6 +538,21 @@
         ],
         "lastUpdated": "2026-05-20T21:56:08.013903Z",
         "size": 180602069
+      },
+      {
+        "value": "php:8.2",
+        "label": "PHP 8.2",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-05-24T09:54:54.827002Z",
+        "size": 179669766
       }
     ]
   },
@@ -556,7 +571,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-05-20T10:23:14.021654Z",
+        "lastUpdated": "2026-05-24T19:23:00.837908Z",
         "size": 312241688
       },
       {
@@ -580,7 +595,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-05-20T10:22:39.511362Z",
+        "lastUpdated": "2026-05-24T19:22:33.975388Z",
         "size": 305191742
       },
       {
