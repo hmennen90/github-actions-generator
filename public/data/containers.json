@@ -145,6 +145,18 @@
     "icon": "🏔️",
     "images": [
       {
+        "value": "alpine:3.24",
+        "label": "Alpine 3.24",
+        "preInstalled": [
+          "apk",
+          "busybox",
+          "musl libc",
+          "sh"
+        ],
+        "lastUpdated": "2026-06-10T02:24:28.355753Z",
+        "size": 3866755
+      },
+      {
         "value": "alpine:3.23",
         "label": "Alpine 3.23",
         "preInstalled": [
@@ -251,18 +263,6 @@
         ],
         "lastUpdated": "2023-12-01T02:20:33.160068Z",
         "size": 2826431
-      },
-      {
-        "value": "alpine:3.14",
-        "label": "Alpine 3.14",
-        "preInstalled": [
-          "apk",
-          "busybox",
-          "musl libc",
-          "sh"
-        ],
-        "lastUpdated": "2023-03-29T18:24:41.665488Z",
-        "size": 2829647
       }
     ]
   },
@@ -424,7 +424,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-25T11:08:10.16521Z",
+        "lastUpdated": "2026-06-10T02:08:52.642783Z",
         "size": 414597786
       },
       {
@@ -439,7 +439,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-05-25T14:07:51.121692Z",
+        "lastUpdated": "2026-06-10T02:08:06.02058Z",
         "size": 412489535
       },
       {
@@ -537,6 +537,19 @@
     "icon": "🔵",
     "images": [
       {
+        "value": "golang:1.26",
+        "label": "Go 1.26",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "GCC",
+          "ca-certificates",
+          "make"
+        ],
+        "lastUpdated": "2026-06-10T01:24:06.441998Z",
+        "size": 312241729
+      },
+      {
         "value": "golang:1.26-alpine",
         "label": "Go 1.26-alpine",
         "preInstalled": [
@@ -548,8 +561,8 @@
         "size": 71437625
       },
       {
-        "value": "golang:1.26",
-        "label": "Go 1.26",
+        "value": "golang:1.25",
+        "label": "Go 1.25",
         "preInstalled": [
           "Go",
           "Git",
@@ -557,8 +570,8 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-06-03T01:24:32.951598Z",
-        "size": 312241729
+        "lastUpdated": "2026-06-10T01:23:06.797326Z",
+        "size": 305192148
       },
       {
         "value": "golang:1.25-alpine",
@@ -570,19 +583,6 @@
         ],
         "lastUpdated": "2026-06-03T01:23:23.162913Z",
         "size": 64388107
-      },
-      {
-        "value": "golang:1.25",
-        "label": "Go 1.25",
-        "preInstalled": [
-          "Go",
-          "Git",
-          "GCC",
-          "ca-certificates",
-          "make"
-        ],
-        "lastUpdated": "2026-06-03T01:23:15.863841Z",
-        "size": 305192148
       }
     ]
   },
@@ -678,7 +678,30 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": []
+    "images": [
+      {
+        "value": "eclipse-temurin:26",
+        "label": "Java 26",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-06-10T02:22:08.410617Z",
+        "size": 152328410
+      },
+      {
+        "value": "eclipse-temurin:8",
+        "label": "Java 8",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-06-10T02:24:25.013819Z",
+        "size": 116932799
+      }
+    ]
   },
   {
     "id": "dotnet",
