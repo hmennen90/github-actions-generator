@@ -408,18 +408,6 @@
         "size": 414658332
       },
       {
-        "value": "python:3.14-alpine",
-        "label": "Python 3.14-alpine",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel"
-        ],
-        "lastUpdated": "2026-06-11T17:08:34.705795Z",
-        "size": 20393993
-      },
-      {
         "value": "python:3.13",
         "label": "Python 3.13",
         "preInstalled": [
