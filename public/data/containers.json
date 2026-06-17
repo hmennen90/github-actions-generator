@@ -153,7 +153,7 @@
           "musl libc",
           "sh"
         ],
-        "lastUpdated": "2026-06-16T02:24:40.920663Z",
+        "lastUpdated": "2026-06-16T08:24:26.197487Z",
         "size": 3846391
       },
       {
@@ -465,6 +465,21 @@
     "icon": "🐍",
     "images": [
       {
+        "value": "python:3.14",
+        "label": "Python 3.14",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-06-16T23:08:29.945197Z",
+        "size": 414658332
+      },
+      {
         "value": "python:3.14-alpine",
         "label": "Python 3.14-alpine",
         "preInstalled": [
@@ -477,8 +492,8 @@
         "size": 17730242
       },
       {
-        "value": "python:3.14",
-        "label": "Python 3.14",
+        "value": "python:3.13",
+        "label": "Python 3.13",
         "preInstalled": [
           "Python",
           "pip",
@@ -488,8 +503,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-06-11T20:09:17.318376Z",
-        "size": 414658332
+        "lastUpdated": "2026-06-16T23:07:53.529451Z",
+        "size": 412591237
       },
       {
         "value": "python:3.13-alpine",
@@ -504,8 +519,8 @@
         "size": 16870633
       },
       {
-        "value": "python:3.13",
-        "label": "Python 3.13",
+        "value": "python:3.12",
+        "label": "Python 3.12",
         "preInstalled": [
           "Python",
           "pip",
@@ -515,8 +530,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-06-11T23:08:35.39891Z",
-        "size": 412591237
+        "lastUpdated": "2026-06-17T02:07:19.836776Z",
+        "size": 410734103
       },
       {
         "value": "python:3.12-alpine",
@@ -531,8 +546,8 @@
         "size": 18018327
       },
       {
-        "value": "python:3.12",
-        "label": "Python 3.12",
+        "value": "python:3.11",
+        "label": "Python 3.11",
         "preInstalled": [
           "Python",
           "pip",
@@ -542,8 +557,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-06-11T23:07:53.838313Z",
-        "size": 410734103
+        "lastUpdated": "2026-06-17T05:06:52.140604Z",
+        "size": 409000051
       },
       {
         "value": "python:3.11-alpine",
@@ -556,21 +571,6 @@
         ],
         "lastUpdated": "2026-06-16T05:06:54.548249Z",
         "size": 20293837
-      },
-      {
-        "value": "python:3.11",
-        "label": "Python 3.11",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel",
-          "Git",
-          "GCC",
-          "make"
-        ],
-        "lastUpdated": "2026-06-11T23:07:11.858587Z",
-        "size": 409000051
       },
       {
         "value": "python:3.10-alpine",
