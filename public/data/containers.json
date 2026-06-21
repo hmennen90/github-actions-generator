@@ -562,18 +562,6 @@
         "size": 409000051
       },
       {
-        "value": "python:3.10-alpine",
-        "label": "Python 3.10-alpine",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel"
-        ],
-        "lastUpdated": "2026-06-18T14:06:30.781268Z",
-        "size": 19723987
-      },
-      {
         "value": "python:3.10",
         "label": "Python 3.10",
         "preInstalled": [
@@ -585,8 +573,20 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-06-11T23:06:29.20493Z",
+        "lastUpdated": "2026-06-20T11:06:27.468714Z",
         "size": 406169504
+      },
+      {
+        "value": "python:3.10-alpine",
+        "label": "Python 3.10-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-06-18T14:06:30.781268Z",
+        "size": 19723987
       }
     ]
   },
