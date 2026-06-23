@@ -182,8 +182,8 @@
           "musl libc",
           "sh"
         ],
-        "lastUpdated": "2026-04-15T23:24:27.127889Z",
-        "size": 3864189
+        "lastUpdated": "2026-06-22T20:25:02.400508Z",
+        "size": 3844421
       },
       {
         "value": "alpine:3.22",
@@ -194,8 +194,8 @@
           "musl libc",
           "sh"
         ],
-        "lastUpdated": "2026-04-17T08:24:30.596373Z",
-        "size": 3808189
+        "lastUpdated": "2026-06-22T20:24:38.094563Z",
+        "size": 3787595
       },
       {
         "value": "alpine:3.21",
@@ -606,16 +606,6 @@
         "size": 44562601
       },
       {
-        "value": "php:8.4-alpine",
-        "label": "PHP 8.4-alpine",
-        "preInstalled": [
-          "PHP",
-          "php-cli"
-        ],
-        "lastUpdated": "2026-06-17T15:57:27.177291Z",
-        "size": 41524140
-      },
-      {
         "value": "php:8.3-alpine",
         "label": "PHP 8.3-alpine",
         "preInstalled": [
@@ -634,21 +624,6 @@
         ],
         "lastUpdated": "2026-06-17T21:55:02.120076Z",
         "size": 36793667
-      },
-      {
-        "value": "php:8.2",
-        "label": "PHP 8.2",
-        "preInstalled": [
-          "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
-        ],
-        "lastUpdated": "2026-06-15T15:54:50.642509Z",
-        "size": 179675173
       }
     ]
   },
@@ -800,61 +775,6 @@
     "label": "Java",
     "icon": "☕",
     "images": [
-      {
-        "value": "eclipse-temurin:26",
-        "label": "Java 26",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-06-19T02:18:50.127633Z",
-        "size": 152288009
-      },
-      {
-        "value": "eclipse-temurin:25",
-        "label": "Java 25",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-06-19T02:17:18.602423Z",
-        "size": 150343996
-      },
-      {
-        "value": "eclipse-temurin:21",
-        "label": "Java 21",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-06-19T02:15:46.774014Z",
-        "size": 223775498
-      },
-      {
-        "value": "eclipse-temurin:17",
-        "label": "Java 17",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-06-19T02:14:08.018016Z",
-        "size": 211516108
-      },
-      {
-        "value": "eclipse-temurin:11",
-        "label": "Java 11",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-06-19T02:12:26.757889Z",
-        "size": 207582381
-      },
       {
         "value": "eclipse-temurin:8",
         "label": "Java 8",
