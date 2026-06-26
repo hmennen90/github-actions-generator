@@ -361,6 +361,30 @@
     "icon": "🟢",
     "images": [
       {
+        "value": "node:26.4-alpine",
+        "label": "Node.js 26.4-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-06-25T17:40:48.849773Z",
+        "size": 62786120
+      },
+      {
+        "value": "node:26-alpine",
+        "label": "Node.js 26-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-06-25T17:39:26.487379Z",
+        "size": 62786120
+      },
+      {
         "value": "node:26",
         "label": "Node.js 26",
         "preInstalled": [
@@ -371,8 +395,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-06-24T17:40:05.225907Z",
-        "size": 442144562
+        "lastUpdated": "2026-06-25T17:39:18.708396Z",
+        "size": 442371240
       },
       {
         "value": "node:24.18-alpine",
@@ -397,34 +421,6 @@
         ],
         "lastUpdated": "2026-06-24T23:38:44.440538Z",
         "size": 57633665
-      },
-      {
-        "value": "node:24",
-        "label": "Node.js 24",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
-        ],
-        "lastUpdated": "2026-06-24T20:38:55.167076Z",
-        "size": 408757034
-      },
-      {
-        "value": "node:22",
-        "label": "Node.js 22",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
-        ],
-        "lastUpdated": "2026-06-24T17:38:14.316136Z",
-        "size": 408363563
       }
     ]
   },
@@ -516,8 +512,8 @@
     "icon": "🐘",
     "images": [
       {
-        "value": "php:8.5",
-        "label": "PHP 8.5",
+        "value": "php:8.3",
+        "label": "PHP 8.3",
         "preInstalled": [
           "PHP",
           "php-cli",
@@ -527,8 +523,23 @@
           "Git",
           "GCC"
         ],
-        "lastUpdated": "2026-06-25T07:02:25.464529Z",
-        "size": 189208350
+        "lastUpdated": "2026-06-25T12:56:09.209674Z",
+        "size": 180607861
+      },
+      {
+        "value": "php:8.2",
+        "label": "PHP 8.2",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-06-25T15:54:53.586074Z",
+        "size": 179674853
       }
     ]
   },
