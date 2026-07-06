@@ -512,6 +512,21 @@
     "icon": "🐘",
     "images": [
       {
+        "value": "php:8.3",
+        "label": "PHP 8.3",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-07-05T12:56:09.546425Z",
+        "size": 180608803
+      },
+      {
         "value": "php:8.3-alpine",
         "label": "PHP 8.3-alpine",
         "preInstalled": [
