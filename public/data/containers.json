@@ -475,6 +475,18 @@
         "size": 410784859
       },
       {
+        "value": "python:3.11-alpine",
+        "label": "Python 3.11-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-07-07T02:08:13.603338Z",
+        "size": 20351508
+      },
+      {
         "value": "python:3.11",
         "label": "Python 3.11",
         "preInstalled": [
@@ -486,8 +498,20 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-06-30T14:06:55.12077Z",
-        "size": 409047566
+        "lastUpdated": "2026-07-06T23:08:44.414177Z",
+        "size": 409103383
+      },
+      {
+        "value": "python:3.10-alpine",
+        "label": "Python 3.10-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-07-07T02:06:42.179131Z",
+        "size": 19779033
       },
       {
         "value": "python:3.10",
@@ -501,8 +525,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-06-30T23:06:28.198849Z",
-        "size": 406215270
+        "lastUpdated": "2026-07-07T02:06:30.241897Z",
+        "size": 406289237
       }
     ]
   },
@@ -512,8 +536,18 @@
     "icon": "🐘",
     "images": [
       {
-        "value": "php:8.3",
-        "label": "PHP 8.3",
+        "value": "php:8.5-alpine",
+        "label": "PHP 8.5-alpine",
+        "preInstalled": [
+          "PHP",
+          "php-cli"
+        ],
+        "lastUpdated": "2026-07-06T19:06:34.38206Z",
+        "size": 44587736
+      },
+      {
+        "value": "php:8.5",
+        "label": "PHP 8.5",
         "preInstalled": [
           "PHP",
           "php-cli",
@@ -523,43 +557,8 @@
           "Git",
           "GCC"
         ],
-        "lastUpdated": "2026-07-05T12:56:09.546425Z",
-        "size": 180608803
-      },
-      {
-        "value": "php:8.3-alpine",
-        "label": "PHP 8.3-alpine",
-        "preInstalled": [
-          "PHP",
-          "php-cli"
-        ],
-        "lastUpdated": "2026-07-03T21:56:04.729243Z",
-        "size": 37604302
-      },
-      {
-        "value": "php:8.2-alpine",
-        "label": "PHP 8.2-alpine",
-        "preInstalled": [
-          "PHP",
-          "php-cli"
-        ],
-        "lastUpdated": "2026-07-04T06:54:51.782357Z",
-        "size": 36803353
-      },
-      {
-        "value": "php:8.2",
-        "label": "PHP 8.2",
-        "preInstalled": [
-          "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
-        ],
-        "lastUpdated": "2026-07-04T03:54:52.64757Z",
-        "size": 179675787
+        "lastUpdated": "2026-07-06T19:06:31.544165Z",
+        "size": 189226733
       }
     ]
   },
