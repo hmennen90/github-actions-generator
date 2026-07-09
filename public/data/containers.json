@@ -361,16 +361,16 @@
     "icon": "🟢",
     "images": [
       {
-        "value": "node:26.4-alpine",
-        "label": "Node.js 26.4-alpine",
+        "value": "node:26.5-alpine",
+        "label": "Node.js 26.5-alpine",
         "preInstalled": [
           "Node.js",
           "npm",
           "yarn",
           "corepack"
         ],
-        "lastUpdated": "2026-06-25T17:40:48.849773Z",
-        "size": 62786120
+        "lastUpdated": "2026-07-08T20:39:44.060014Z",
+        "size": 62808818
       },
       {
         "value": "node:26-alpine",
@@ -381,8 +381,8 @@
           "yarn",
           "corepack"
         ],
-        "lastUpdated": "2026-06-25T17:39:26.487379Z",
-        "size": 62786120
+        "lastUpdated": "2026-07-08T20:39:08.511235Z",
+        "size": 62808818
       },
       {
         "value": "node:26",
@@ -395,8 +395,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-06-25T17:39:18.708396Z",
-        "size": 442371240
+        "lastUpdated": "2026-07-08T20:39:03.403503Z",
+        "size": 442394221
       },
       {
         "value": "node:24",
@@ -579,7 +579,7 @@
           "Git",
           "ca-certificates"
         ],
-        "lastUpdated": "2026-07-07T23:15:39.434499Z",
+        "lastUpdated": "2026-07-08T22:23:29.340304Z",
         "size": 71380009
       },
       {
@@ -592,7 +592,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-07-07T23:15:36.476207Z",
+        "lastUpdated": "2026-07-08T22:23:26.321237Z",
         "size": 312291984
       },
       {
@@ -603,7 +603,7 @@
           "Git",
           "ca-certificates"
         ],
-        "lastUpdated": "2026-07-07T23:14:10.975514Z",
+        "lastUpdated": "2026-07-08T22:22:48.578017Z",
         "size": 64338370
       },
       {
@@ -616,7 +616,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-07-07T23:13:50.028014Z",
+        "lastUpdated": "2026-07-08T22:22:41.88095Z",
         "size": 305250457
       }
     ]
