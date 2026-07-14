@@ -302,8 +302,8 @@
           "Git 2.43",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-06-24T05:26:30.248461Z",
-        "size": 49317255
+        "lastUpdated": "2026-07-14T02:29:35.355919Z",
+        "size": 49312572
       },
       {
         "value": "debian:sid",
@@ -316,8 +316,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-06-24T05:25:19.517264Z",
-        "size": 48778379
+        "lastUpdated": "2026-07-14T02:27:42.672579Z",
+        "size": 48864034
       },
       {
         "value": "debian:bullseye",
@@ -333,8 +333,8 @@
           "Git 2.30",
           "OpenSSL 1.1"
         ],
-        "lastUpdated": "2026-06-24T02:25:30.964825Z",
-        "size": 53773009
+        "lastUpdated": "2026-07-14T02:25:19.523305Z",
+        "size": 53776576
       },
       {
         "value": "debian:bookworm",
@@ -350,8 +350,8 @@
           "Git 2.39",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-06-24T02:25:06.783137Z",
-        "size": 48502210
+        "lastUpdated": "2026-07-14T02:25:02.99405Z",
+        "size": 48497403
       }
     ]
   },
@@ -373,6 +373,20 @@
         "size": 62808818
       },
       {
+        "value": "node:26",
+        "label": "Node.js 26",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack",
+          "Git",
+          "Python 3"
+        ],
+        "lastUpdated": "2026-07-14T05:40:32.071422Z",
+        "size": 442417408
+      },
+      {
         "value": "node:26-alpine",
         "label": "Node.js 26-alpine",
         "preInstalled": [
@@ -385,20 +399,6 @@
         "size": 62808818
       },
       {
-        "value": "node:26",
-        "label": "Node.js 26",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
-        ],
-        "lastUpdated": "2026-07-08T20:39:03.403503Z",
-        "size": 442394221
-      },
-      {
         "value": "node:24",
         "label": "Node.js 24",
         "preInstalled": [
@@ -409,22 +409,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-07-07T17:38:54.920243Z",
-        "size": 408757034
-      },
-      {
-        "value": "node:22",
-        "label": "Node.js 22",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
-        ],
-        "lastUpdated": "2026-07-07T17:38:09.232506Z",
-        "size": 408363563
+        "lastUpdated": "2026-07-14T05:39:26.467238Z",
+        "size": 408780958
       }
     ]
   },
@@ -540,16 +526,6 @@
     "icon": "🐘",
     "images": [
       {
-        "value": "php:8.5-alpine",
-        "label": "PHP 8.5-alpine",
-        "preInstalled": [
-          "PHP",
-          "php-cli"
-        ],
-        "lastUpdated": "2026-07-07T12:58:54.893899Z",
-        "size": 44587736
-      },
-      {
         "value": "php:8.5",
         "label": "PHP 8.5",
         "preInstalled": [
@@ -561,8 +537,8 @@
           "Git",
           "GCC"
         ],
-        "lastUpdated": "2026-07-06T19:06:31.544165Z",
-        "size": 189226733
+        "lastUpdated": "2026-07-14T07:07:24.472785Z",
+        "size": 189225066
       }
     ]
   },
@@ -571,6 +547,19 @@
     "label": "Go",
     "icon": "🔵",
     "images": [
+      {
+        "value": "golang:1.26",
+        "label": "Go 1.26",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "GCC",
+          "ca-certificates",
+          "make"
+        ],
+        "lastUpdated": "2026-07-14T07:23:45.225635Z",
+        "size": 312305560
+      },
       {
         "value": "golang:1.26-alpine",
         "label": "Go 1.26-alpine",
@@ -583,8 +572,8 @@
         "size": 71380009
       },
       {
-        "value": "golang:1.26",
-        "label": "Go 1.26",
+        "value": "golang:1.25",
+        "label": "Go 1.25",
         "preInstalled": [
           "Go",
           "Git",
@@ -592,8 +581,8 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-07-08T22:23:26.321237Z",
-        "size": 312291984
+        "lastUpdated": "2026-07-14T07:23:03.055789Z",
+        "size": 305264123
       },
       {
         "value": "golang:1.25-alpine",
@@ -605,19 +594,6 @@
         ],
         "lastUpdated": "2026-07-08T22:22:48.578017Z",
         "size": 64338370
-      },
-      {
-        "value": "golang:1.25",
-        "label": "Go 1.25",
-        "preInstalled": [
-          "Go",
-          "Git",
-          "GCC",
-          "ca-certificates",
-          "make"
-        ],
-        "lastUpdated": "2026-07-08T22:22:41.88095Z",
-        "size": 305250457
       }
     ]
   },
@@ -626,18 +602,6 @@
     "label": "Rust",
     "icon": "🦀",
     "images": [
-      {
-        "value": "rust:1.97-alpine",
-        "label": "Rust 1.97-alpine",
-        "preInstalled": [
-          "Rust",
-          "Cargo",
-          "rustfmt",
-          "clippy"
-        ],
-        "lastUpdated": "2026-07-09T19:46:44.475825Z",
-        "size": 352042012
-      },
       {
         "value": "rust:1.97",
         "label": "Rust 1.97",
@@ -650,8 +614,20 @@
           "Git",
           "make"
         ],
-        "lastUpdated": "2026-07-09T19:46:42.558359Z",
-        "size": 596885677
+        "lastUpdated": "2026-07-14T07:45:05.345285Z",
+        "size": 596908888
+      },
+      {
+        "value": "rust:1.97-alpine",
+        "label": "Rust 1.97-alpine",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy"
+        ],
+        "lastUpdated": "2026-07-09T19:46:44.475825Z",
+        "size": 352042012
       },
       {
         "value": "rust:1.96-alpine",
