@@ -490,53 +490,7 @@
     "id": "php",
     "label": "PHP",
     "icon": "🐘",
-    "images": [
-      {
-        "value": "php:8.4",
-        "label": "PHP 8.4",
-        "preInstalled": [
-          "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
-        ],
-        "lastUpdated": "2026-07-14T21:57:28.305897Z",
-        "size": 185319137
-      },
-      {
-        "value": "php:8.3",
-        "label": "PHP 8.3",
-        "preInstalled": [
-          "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
-        ],
-        "lastUpdated": "2026-07-15T00:56:09.156367Z",
-        "size": 180603476
-      },
-      {
-        "value": "php:8.2",
-        "label": "PHP 8.2",
-        "preInstalled": [
-          "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
-        ],
-        "lastUpdated": "2026-07-15T03:54:52.966743Z",
-        "size": 179672033
-      }
-    ]
+    "images": []
   },
   {
     "id": "golang",
