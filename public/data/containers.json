@@ -531,18 +531,6 @@
     "icon": "🦀",
     "images": [
       {
-        "value": "rust:1.97-alpine",
-        "label": "Rust 1.97-alpine",
-        "preInstalled": [
-          "Rust",
-          "Cargo",
-          "rustfmt",
-          "clippy"
-        ],
-        "lastUpdated": "2026-07-16T19:46:45.427697Z",
-        "size": 352042211
-      },
-      {
         "value": "rust:1.97",
         "label": "Rust 1.97",
         "preInstalled": [
@@ -554,8 +542,20 @@
           "Git",
           "make"
         ],
-        "lastUpdated": "2026-07-16T19:46:43.249427Z",
+        "lastUpdated": "2026-07-21T13:44:28.726228Z",
         "size": 596855284
+      },
+      {
+        "value": "rust:1.97-alpine",
+        "label": "Rust 1.97-alpine",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy"
+        ],
+        "lastUpdated": "2026-07-16T19:46:45.427697Z",
+        "size": 352042211
       },
       {
         "value": "rust:1.96-alpine",
@@ -591,17 +591,6 @@
     "label": "Java",
     "icon": "☕",
     "images": [
-      {
-        "value": "eclipse-temurin:26",
-        "label": "Java 26",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-07-16T02:26:04.178067Z",
-        "size": 152306772
-      },
       {
         "value": "eclipse-temurin:8",
         "label": "Java 8",
