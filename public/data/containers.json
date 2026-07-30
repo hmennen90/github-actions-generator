@@ -389,6 +389,30 @@
         "size": 408780958
       },
       {
+        "value": "node:22.23-alpine",
+        "label": "Node.js 22.23-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-07-29T20:40:21.749985Z",
+        "size": 57738922
+      },
+      {
+        "value": "node:22-alpine",
+        "label": "Node.js 22-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-07-29T20:38:41.166725Z",
+        "size": 57738922
+      },
+      {
         "value": "node:22",
         "label": "Node.js 22",
         "preInstalled": [
@@ -399,8 +423,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-07-14T20:38:15.25507Z",
-        "size": 408387479
+        "lastUpdated": "2026-07-29T20:38:24.176562Z",
+        "size": 408384232
       }
     ]
   },
