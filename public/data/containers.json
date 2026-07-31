@@ -361,6 +361,30 @@
     "icon": "🟢",
     "images": [
       {
+        "value": "node:26.5-alpine",
+        "label": "Node.js 26.5-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-07-30T20:42:16.731148Z",
+        "size": 63252746
+      },
+      {
+        "value": "node:26-alpine",
+        "label": "Node.js 26-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-07-30T20:41:11.022614Z",
+        "size": 63252746
+      },
+      {
         "value": "node:26",
         "label": "Node.js 26",
         "preInstalled": [
@@ -371,60 +395,20 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-07-15T02:39:01.736198Z",
-        "size": 442417408
+        "lastUpdated": "2026-07-30T20:41:04.231141Z",
+        "size": 442406120
       },
       {
-        "value": "node:24",
-        "label": "Node.js 24",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
-        ],
-        "lastUpdated": "2026-07-14T20:39:07.031Z",
-        "size": 408780958
-      },
-      {
-        "value": "node:22.23-alpine",
-        "label": "Node.js 22.23-alpine",
+        "value": "node:24.18-alpine",
+        "label": "Node.js 24.18-alpine",
         "preInstalled": [
           "Node.js",
           "npm",
           "yarn",
           "corepack"
         ],
-        "lastUpdated": "2026-07-29T20:40:21.749985Z",
-        "size": 57738922
-      },
-      {
-        "value": "node:22-alpine",
-        "label": "Node.js 22-alpine",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack"
-        ],
-        "lastUpdated": "2026-07-29T20:38:41.166725Z",
-        "size": 57738922
-      },
-      {
-        "value": "node:22",
-        "label": "Node.js 22",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
-        ],
-        "lastUpdated": "2026-07-29T20:38:24.176562Z",
-        "size": 408384232
+        "lastUpdated": "2026-07-30T20:40:08.996445Z",
+        "size": 58037244
       }
     ]
   },
@@ -514,7 +498,33 @@
     "id": "php",
     "label": "PHP",
     "icon": "🐘",
-    "images": []
+    "images": [
+      {
+        "value": "php:8.3-alpine",
+        "label": "PHP 8.3-alpine",
+        "preInstalled": [
+          "PHP",
+          "php-cli"
+        ],
+        "lastUpdated": "2026-07-31T03:58:25.956865Z",
+        "size": 37612346
+      },
+      {
+        "value": "php:8.3",
+        "label": "PHP 8.3",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-07-31T03:58:22.745363Z",
+        "size": 180611819
+      }
+    ]
   },
   {
     "id": "golang",
