@@ -500,28 +500,18 @@
     "icon": "🐘",
     "images": [
       {
-        "value": "php:8.5-alpine",
-        "label": "PHP 8.5-alpine",
+        "value": "php:8.3-alpine",
+        "label": "PHP 8.3-alpine",
         "preInstalled": [
           "PHP",
           "php-cli"
         ],
-        "lastUpdated": "2026-07-31T18:58:31.542263Z",
-        "size": 44609094
+        "lastUpdated": "2026-08-01T15:55:58.728684Z",
+        "size": 37612346
       },
       {
-        "value": "php:8.4-alpine",
-        "label": "PHP 8.4-alpine",
-        "preInstalled": [
-          "PHP",
-          "php-cli"
-        ],
-        "lastUpdated": "2026-08-01T03:57:08.80822Z",
-        "size": 41571068
-      },
-      {
-        "value": "php:8.4",
-        "label": "PHP 8.4",
+        "value": "php:8.3",
+        "label": "PHP 8.3",
         "preInstalled": [
           "PHP",
           "php-cli",
@@ -531,8 +521,33 @@
           "Git",
           "GCC"
         ],
-        "lastUpdated": "2026-08-01T00:57:18.199388Z",
-        "size": 185346758
+        "lastUpdated": "2026-08-01T09:55:54.020109Z",
+        "size": 180611819
+      },
+      {
+        "value": "php:8.2-alpine",
+        "label": "PHP 8.2-alpine",
+        "preInstalled": [
+          "PHP",
+          "php-cli"
+        ],
+        "lastUpdated": "2026-08-02T00:54:55.811324Z",
+        "size": 36810478
+      },
+      {
+        "value": "php:8.2",
+        "label": "PHP 8.2",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-08-01T18:54:46.59539Z",
+        "size": 179676056
       }
     ]
   },
