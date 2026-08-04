@@ -41,8 +41,8 @@
           "make",
           "Perl"
         ],
-        "lastUpdated": "2026-07-16T22:04:17.087031Z",
-        "size": 41581150
+        "lastUpdated": "2026-08-04T04:04:49.702067Z",
+        "size": 41568664
       },
       {
         "value": "ubuntu:25.10",
@@ -113,8 +113,8 @@
           "Python 3.12",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-07-02T04:04:39.105817Z",
-        "size": 29735601
+        "lastUpdated": "2026-08-04T04:04:35.095182Z",
+        "size": 29751109
       },
       {
         "value": "ubuntu:22.04",
@@ -132,8 +132,8 @@
           "Python 3.10",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-07-02T04:04:24.430078Z",
-        "size": 29738881
+        "lastUpdated": "2026-08-04T04:04:21.594223Z",
+        "size": 29736517
       },
       {
         "value": "ubuntu:20.04",
@@ -373,20 +373,32 @@
         "size": 63252746
       },
       {
-        "value": "node:26-alpine",
-        "label": "Node.js 26-alpine",
+        "value": "node:24.19-alpine",
+        "label": "Node.js 24.19-alpine",
         "preInstalled": [
           "Node.js",
           "npm",
           "yarn",
           "corepack"
         ],
-        "lastUpdated": "2026-07-30T20:41:11.022614Z",
-        "size": 63252746
+        "lastUpdated": "2026-08-03T23:40:06.383995Z",
+        "size": 58204379
       },
       {
-        "value": "node:26",
-        "label": "Node.js 26",
+        "value": "node:24-alpine",
+        "label": "Node.js 24-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-08-03T23:38:54.128466Z",
+        "size": 58204379
+      },
+      {
+        "value": "node:24",
+        "label": "Node.js 24",
         "preInstalled": [
           "Node.js",
           "npm",
@@ -395,20 +407,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-07-30T20:41:04.231141Z",
-        "size": 442406120
-      },
-      {
-        "value": "node:24.18-alpine",
-        "label": "Node.js 24.18-alpine",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack"
-        ],
-        "lastUpdated": "2026-07-30T20:40:08.996445Z",
-        "size": 58037244
+        "lastUpdated": "2026-08-03T23:38:43.858171Z",
+        "size": 408949206
       }
     ]
   },
@@ -651,6 +651,50 @@
     "icon": "☕",
     "images": [
       {
+        "value": "eclipse-temurin:26",
+        "label": "Java 26",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-08-04T08:18:26.549408Z",
+        "size": 161568664
+      },
+      {
+        "value": "eclipse-temurin:25",
+        "label": "Java 25",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-08-04T08:16:52.450954Z",
+        "size": 159624608
+      },
+      {
+        "value": "eclipse-temurin:21",
+        "label": "Java 21",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-08-04T08:15:20.147069Z",
+        "size": 233051116
+      },
+      {
+        "value": "eclipse-temurin:17",
+        "label": "Java 17",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-08-04T08:13:46.309686Z",
+        "size": 220791499
+      },
+      {
         "value": "eclipse-temurin:8",
         "label": "Java 8",
         "preInstalled": [
@@ -658,8 +702,8 @@
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-07-16T02:28:50.538693Z",
-        "size": 116905906
+        "lastUpdated": "2026-08-04T08:19:51.281228Z",
+        "size": 126158874
       }
     ]
   },
