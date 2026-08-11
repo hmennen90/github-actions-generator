@@ -461,6 +461,18 @@
         "size": 414925518
       },
       {
+        "value": "python:3.13-alpine",
+        "label": "Python 3.13-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-08-11T02:07:37.515429Z",
+        "size": 16892953
+      },
+      {
         "value": "python:3.13",
         "label": "Python 3.13",
         "preInstalled": [
@@ -472,8 +484,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-08-05T20:08:41.105284Z",
-        "size": 412743454
+        "lastUpdated": "2026-08-10T23:07:54.653328Z",
+        "size": 412828942
       },
       {
         "value": "python:3.12",
@@ -504,21 +516,6 @@
         ],
         "lastUpdated": "2026-08-05T20:07:23.100575Z",
         "size": 409233798
-      },
-      {
-        "value": "python:3.10",
-        "label": "Python 3.10",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel",
-          "Git",
-          "GCC",
-          "make"
-        ],
-        "lastUpdated": "2026-08-05T20:06:47.913854Z",
-        "size": 406407301
       }
     ]
   },
@@ -604,8 +601,8 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-08-05T13:23:02.355996Z",
-        "size": 312343664
+        "lastUpdated": "2026-08-11T01:24:05.791559Z",
+        "size": 312359651
       },
       {
         "value": "golang:1.25",
@@ -617,8 +614,8 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-08-05T13:22:34.329396Z",
-        "size": 305302069
+        "lastUpdated": "2026-08-11T01:23:18.31455Z",
+        "size": 305317909
       }
     ]
   },
