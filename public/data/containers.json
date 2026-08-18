@@ -132,8 +132,8 @@
           "Python 3.10",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-08-04T04:04:21.594223Z",
-        "size": 29736517
+        "lastUpdated": "2026-08-18T04:04:22.20311Z",
+        "size": 29736943
       },
       {
         "value": "ubuntu:20.04",
@@ -684,30 +684,7 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": [
-      {
-        "value": "eclipse-temurin:26",
-        "label": "Java 26",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-08-12T20:19:49.57523Z",
-        "size": 161568664
-      },
-      {
-        "value": "eclipse-temurin:8",
-        "label": "Java 8",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-08-12T20:21:34.66259Z",
-        "size": 126158874
-      }
-    ]
+    "images": []
   },
   {
     "id": "dotnet",
