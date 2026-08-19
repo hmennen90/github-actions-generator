@@ -41,8 +41,8 @@
           "make",
           "Perl"
         ],
-        "lastUpdated": "2026-08-04T04:04:49.702067Z",
-        "size": 41568664
+        "lastUpdated": "2026-08-19T01:04:17.293689Z",
+        "size": 41569596
       },
       {
         "value": "ubuntu:25.10",
@@ -113,8 +113,8 @@
           "Python 3.12",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-08-04T04:04:35.095182Z",
-        "size": 29751109
+        "lastUpdated": "2026-08-19T01:04:12.473918Z",
+        "size": 29752807
       },
       {
         "value": "ubuntu:22.04",
@@ -684,7 +684,74 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": []
+    "images": [
+      {
+        "value": "eclipse-temurin:26",
+        "label": "Java 26",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-08-18T23:18:23.569515Z",
+        "size": 152296203
+      },
+      {
+        "value": "eclipse-temurin:25",
+        "label": "Java 25",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-08-18T23:16:54.92655Z",
+        "size": 150352136
+      },
+      {
+        "value": "eclipse-temurin:21",
+        "label": "Java 21",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-08-18T23:15:32.476922Z",
+        "size": 223781512
+      },
+      {
+        "value": "eclipse-temurin:17",
+        "label": "Java 17",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-08-18T23:13:55.760976Z",
+        "size": 211522293
+      },
+      {
+        "value": "eclipse-temurin:11",
+        "label": "Java 11",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-08-18T23:12:18.43614Z",
+        "size": 207590183
+      },
+      {
+        "value": "eclipse-temurin:8",
+        "label": "Java 8",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-08-18T23:19:41.818123Z",
+        "size": 116898263
+      }
+    ]
   },
   {
     "id": "dotnet",
