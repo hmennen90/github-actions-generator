@@ -41,7 +41,7 @@
           "make",
           "Perl"
         ],
-        "lastUpdated": "2026-08-19T01:04:17.293689Z",
+        "lastUpdated": "2026-08-19T22:04:18.798663Z",
         "size": 41569596
       },
       {
@@ -113,7 +113,7 @@
           "Python 3.12",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-08-19T01:04:12.473918Z",
+        "lastUpdated": "2026-08-19T22:04:13.781021Z",
         "size": 29752807
       },
       {
@@ -570,6 +570,30 @@
     "icon": "🔵",
     "images": [
       {
+        "value": "golang:1.27-alpine",
+        "label": "Go 1.27-alpine",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "ca-certificates"
+        ],
+        "lastUpdated": "2026-08-19T22:23:12.275108Z",
+        "size": 75148377
+      },
+      {
+        "value": "golang:1.27",
+        "label": "Go 1.27",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "GCC",
+          "ca-certificates",
+          "make"
+        ],
+        "lastUpdated": "2026-08-19T22:23:09.413265Z",
+        "size": 316128100
+      },
+      {
         "value": "golang:1.26-alpine",
         "label": "Go 1.26-alpine",
         "preInstalled": [
@@ -577,8 +601,8 @@
           "Git",
           "ca-certificates"
         ],
-        "lastUpdated": "2026-08-16T16:23:22.93831Z",
-        "size": 71400075
+        "lastUpdated": "2026-08-19T18:47:15.386987Z",
+        "size": 71399822
       },
       {
         "value": "golang:1.26",
@@ -590,32 +614,8 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-08-16T16:23:20.046053Z",
-        "size": 312379552
-      },
-      {
-        "value": "golang:1.25-alpine",
-        "label": "Go 1.25-alpine",
-        "preInstalled": [
-          "Go",
-          "Git",
-          "ca-certificates"
-        ],
-        "lastUpdated": "2026-08-16T16:22:44.877439Z",
-        "size": 64384778
-      },
-      {
-        "value": "golang:1.25",
-        "label": "Go 1.25",
-        "preInstalled": [
-          "Go",
-          "Git",
-          "GCC",
-          "ca-certificates",
-          "make"
-        ],
-        "lastUpdated": "2026-08-16T16:22:39.107106Z",
-        "size": 305364453
+        "lastUpdated": "2026-08-19T18:47:12.319172Z",
+        "size": 312379287
       }
     ]
   },
@@ -693,7 +693,7 @@
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-08-18T23:18:23.569515Z",
+        "lastUpdated": "2026-08-19T23:17:35.138638Z",
         "size": 152296203
       },
       {
@@ -704,7 +704,7 @@
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-08-18T23:16:54.92655Z",
+        "lastUpdated": "2026-08-19T23:16:17.799126Z",
         "size": 150352136
       },
       {
@@ -715,7 +715,7 @@
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-08-18T23:15:32.476922Z",
+        "lastUpdated": "2026-08-19T23:14:57.028995Z",
         "size": 223781512
       },
       {
@@ -726,7 +726,7 @@
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-08-18T23:13:55.760976Z",
+        "lastUpdated": "2026-08-19T23:13:36.242862Z",
         "size": 211522293
       },
       {
@@ -737,7 +737,7 @@
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-08-18T23:12:18.43614Z",
+        "lastUpdated": "2026-08-19T23:12:13.025924Z",
         "size": 207590183
       },
       {
@@ -748,7 +748,7 @@
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-08-18T23:19:41.818123Z",
+        "lastUpdated": "2026-08-19T23:18:49.380372Z",
         "size": 116898263
       }
     ]
