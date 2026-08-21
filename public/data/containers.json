@@ -625,6 +625,33 @@
     "icon": "🦀",
     "images": [
       {
+        "value": "rust:1.98",
+        "label": "Rust 1.98",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy",
+          "GCC",
+          "Git",
+          "make"
+        ],
+        "lastUpdated": "2026-08-20T22:44:36.103295Z",
+        "size": 592906143
+      },
+      {
+        "value": "rust:1.98-alpine",
+        "label": "Rust 1.98-alpine",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy"
+        ],
+        "lastUpdated": "2026-08-20T19:46:24.034471Z",
+        "size": 349115881
+      },
+      {
         "value": "rust:1.97",
         "label": "Rust 1.97",
         "preInstalled": [
@@ -650,33 +677,6 @@
         ],
         "lastUpdated": "2026-07-16T19:46:45.427697Z",
         "size": 352042211
-      },
-      {
-        "value": "rust:1.96-alpine",
-        "label": "Rust 1.96-alpine",
-        "preInstalled": [
-          "Rust",
-          "Cargo",
-          "rustfmt",
-          "clippy"
-        ],
-        "lastUpdated": "2026-07-01T01:46:47.096973Z",
-        "size": 349455443
-      },
-      {
-        "value": "rust:1.96",
-        "label": "Rust 1.96",
-        "preInstalled": [
-          "Rust",
-          "Cargo",
-          "rustfmt",
-          "clippy",
-          "GCC",
-          "Git",
-          "make"
-        ],
-        "lastUpdated": "2026-07-01T01:46:44.96895Z",
-        "size": 594233199
       }
     ]
   },
