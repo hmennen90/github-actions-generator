@@ -361,6 +361,30 @@
     "icon": "🟢",
     "images": [
       {
+        "value": "node:26.8-alpine",
+        "label": "Node.js 26.8-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-08-27T20:39:51.81952Z",
+        "size": 63602327
+      },
+      {
+        "value": "node:26-alpine",
+        "label": "Node.js 26-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-08-27T20:39:37.537977Z",
+        "size": 63602327
+      },
+      {
         "value": "node:26",
         "label": "Node.js 26",
         "preInstalled": [
@@ -371,36 +395,32 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-08-25T17:39:49.222374Z",
-        "size": 442999180
+        "lastUpdated": "2026-08-27T17:42:14.19813Z",
+        "size": 443273684
       },
       {
-        "value": "node:24",
-        "label": "Node.js 24",
+        "value": "node:24.20-alpine",
+        "label": "Node.js 24.20-alpine",
         "preInstalled": [
           "Node.js",
           "npm",
           "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
+          "corepack"
         ],
-        "lastUpdated": "2026-08-25T17:39:04.920274Z",
-        "size": 409001676
+        "lastUpdated": "2026-08-27T20:39:09.799017Z",
+        "size": 58486244
       },
       {
-        "value": "node:22",
-        "label": "Node.js 22",
+        "value": "node:24-alpine",
+        "label": "Node.js 24-alpine",
         "preInstalled": [
           "Node.js",
           "npm",
           "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
+          "corepack"
         ],
-        "lastUpdated": "2026-08-25T17:38:16.058967Z",
-        "size": 408436770
+        "lastUpdated": "2026-08-27T20:38:45.998998Z",
+        "size": 58486244
       }
     ]
   },
@@ -516,49 +536,14 @@
     "icon": "🐘",
     "images": [
       {
-        "value": "php:8.4",
-        "label": "PHP 8.4",
+        "value": "php:8.4-alpine",
+        "label": "PHP 8.4-alpine",
         "preInstalled": [
           "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
+          "php-cli"
         ],
-        "lastUpdated": "2026-08-26T03:57:07.230947Z",
-        "size": 185366934
-      },
-      {
-        "value": "php:8.3",
-        "label": "PHP 8.3",
-        "preInstalled": [
-          "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
-        ],
-        "lastUpdated": "2026-08-26T06:55:54.281953Z",
-        "size": 180624029
-      },
-      {
-        "value": "php:8.2",
-        "label": "PHP 8.2",
-        "preInstalled": [
-          "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
-        ],
-        "lastUpdated": "2026-08-26T12:54:45.518995Z",
-        "size": 179688165
+        "lastUpdated": "2026-08-28T00:57:07.285529Z",
+        "size": 44057726
       }
     ]
   },
