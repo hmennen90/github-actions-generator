@@ -536,6 +536,21 @@
     "icon": "🐘",
     "images": [
       {
+        "value": "php:8.4",
+        "label": "PHP 8.4",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-08-30T18:56:58.426168Z",
+        "size": 188351640
+      },
+      {
         "value": "php:8.4-alpine",
         "label": "PHP 8.4-alpine",
         "preInstalled": [
@@ -562,7 +577,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-08-25T13:23:13.963458Z",
+        "lastUpdated": "2026-08-30T16:22:59.226721Z",
         "size": 316156544
       },
       {
@@ -586,7 +601,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-08-25T13:22:40.451857Z",
+        "lastUpdated": "2026-08-30T16:22:32.922763Z",
         "size": 312407957
       },
       {
