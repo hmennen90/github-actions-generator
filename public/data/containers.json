@@ -430,19 +430,28 @@
     "icon": "🐍",
     "images": [
       {
-        "value": "python:3.14",
-        "label": "Python 3.14",
+        "value": "python:3.14-alpine",
+        "label": "Python 3.14-alpine",
         "preInstalled": [
           "Python",
           "pip",
           "setuptools",
-          "wheel",
-          "Git",
-          "GCC",
-          "make"
+          "wheel"
         ],
-        "lastUpdated": "2026-08-25T20:09:12.479062Z",
-        "size": 414967043
+        "lastUpdated": "2026-09-01T02:14:40.081029Z",
+        "size": 20336976
+      },
+      {
+        "value": "python:3.13-alpine",
+        "label": "Python 3.13-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-09-01T02:13:08.143997Z",
+        "size": 19464726
       },
       {
         "value": "python:3.13",
@@ -456,8 +465,20 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-08-25T20:08:38.991652Z",
+        "lastUpdated": "2026-08-31T20:07:45.023415Z",
         "size": 412872069
+      },
+      {
+        "value": "python:3.12-alpine",
+        "label": "Python 3.12-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-09-01T05:08:20.15361Z",
+        "size": 20601472
       },
       {
         "value": "python:3.12",
@@ -471,8 +492,20 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-08-25T20:07:59.402258Z",
+        "lastUpdated": "2026-08-31T20:07:13.275715Z",
         "size": 410944833
+      },
+      {
+        "value": "python:3.11-alpine",
+        "label": "Python 3.11-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-09-01T05:07:25.750042Z",
+        "size": 22964444
       },
       {
         "value": "python:3.11",
@@ -486,20 +519,20 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-08-25T20:07:18.525181Z",
+        "lastUpdated": "2026-08-31T23:06:58.051189Z",
         "size": 409283578
       },
       {
-        "value": "python:3.11-alpine",
-        "label": "Python 3.11-alpine",
+        "value": "python:3.10-alpine",
+        "label": "Python 3.10-alpine",
         "preInstalled": [
           "Python",
           "pip",
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-08-16T23:06:52.495359Z",
-        "size": 20383514
+        "lastUpdated": "2026-09-01T05:06:31.707847Z",
+        "size": 22390159
       },
       {
         "value": "python:3.10",
@@ -513,20 +546,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-08-25T20:06:39.440423Z",
+        "lastUpdated": "2026-08-31T23:06:25.910518Z",
         "size": 406459350
-      },
-      {
-        "value": "python:3.10-alpine",
-        "label": "Python 3.10-alpine",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel"
-        ],
-        "lastUpdated": "2026-08-17T05:06:26.670767Z",
-        "size": 19813339
       }
     ]
   },
@@ -536,8 +557,8 @@
     "icon": "🐘",
     "images": [
       {
-        "value": "php:8.4",
-        "label": "PHP 8.4",
+        "value": "php:8.5",
+        "label": "PHP 8.5",
         "preInstalled": [
           "PHP",
           "php-cli",
@@ -547,18 +568,18 @@
           "Git",
           "GCC"
         ],
-        "lastUpdated": "2026-08-30T18:56:58.426168Z",
-        "size": 188351640
+        "lastUpdated": "2026-09-01T09:58:13.758005Z",
+        "size": 192289540
       },
       {
-        "value": "php:8.4-alpine",
-        "label": "PHP 8.4-alpine",
+        "value": "php:8.5-alpine",
+        "label": "PHP 8.5-alpine",
         "preInstalled": [
           "PHP",
           "php-cli"
         ],
-        "lastUpdated": "2026-08-28T18:57:04.042662Z",
-        "size": 44057726
+        "lastUpdated": "2026-08-31T22:04:35.095805Z",
+        "size": 47125918
       }
     ]
   },
@@ -634,7 +655,7 @@
           "Git",
           "make"
         ],
-        "lastUpdated": "2026-08-25T19:44:31.962395Z",
+        "lastUpdated": "2026-09-01T04:44:26.600088Z",
         "size": 592953245
       },
       {
