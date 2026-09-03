@@ -486,7 +486,7 @@
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-09-01T05:06:31.707847Z",
+        "lastUpdated": "2026-09-02T11:06:27.501248Z",
         "size": 22390159
       }
     ]
@@ -496,6 +496,16 @@
     "label": "PHP",
     "icon": "🐘",
     "images": [
+      {
+        "value": "php:8.5-alpine",
+        "label": "PHP 8.5-alpine",
+        "preInstalled": [
+          "PHP",
+          "php-cli"
+        ],
+        "lastUpdated": "2026-09-03T09:58:22.771318Z",
+        "size": 47125918
+      },
       {
         "value": "php:8.5",
         "label": "PHP 8.5",
@@ -510,16 +520,6 @@
         ],
         "lastUpdated": "2026-09-01T09:58:13.758005Z",
         "size": 192289540
-      },
-      {
-        "value": "php:8.5-alpine",
-        "label": "PHP 8.5-alpine",
-        "preInstalled": [
-          "PHP",
-          "php-cli"
-        ],
-        "lastUpdated": "2026-08-31T22:04:35.095805Z",
-        "size": 47125918
       }
     ]
   },
@@ -528,6 +528,17 @@
     "label": "Go",
     "icon": "🔵",
     "images": [
+      {
+        "value": "golang:1.27-alpine",
+        "label": "Go 1.27-alpine",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "ca-certificates"
+        ],
+        "lastUpdated": "2026-09-02T16:23:28.624421Z",
+        "size": 75169503
+      },
       {
         "value": "golang:1.27",
         "label": "Go 1.27",
@@ -538,19 +549,19 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-09-02T04:23:37.764601Z",
+        "lastUpdated": "2026-09-02T16:23:25.641757Z",
         "size": 316194729
       },
       {
-        "value": "golang:1.27-alpine",
-        "label": "Go 1.27-alpine",
+        "value": "golang:1.26-alpine",
+        "label": "Go 1.26-alpine",
         "preInstalled": [
           "Go",
           "Git",
           "ca-certificates"
         ],
-        "lastUpdated": "2026-09-02T01:25:32.274531Z",
-        "size": 75169503
+        "lastUpdated": "2026-09-02T16:22:48.923468Z",
+        "size": 71399963
       },
       {
         "value": "golang:1.26",
@@ -562,19 +573,8 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-09-02T04:22:51.775315Z",
+        "lastUpdated": "2026-09-02T16:22:43.185112Z",
         "size": 312425164
-      },
-      {
-        "value": "golang:1.26-alpine",
-        "label": "Go 1.26-alpine",
-        "preInstalled": [
-          "Go",
-          "Git",
-          "ca-certificates"
-        ],
-        "lastUpdated": "2026-09-02T01:24:13.617855Z",
-        "size": 71399963
       }
     ]
   },
