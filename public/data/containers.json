@@ -134,25 +134,6 @@
         ],
         "lastUpdated": "2026-08-18T04:04:22.20311Z",
         "size": 29736943
-      },
-      {
-        "value": "ubuntu:20.04",
-        "label": "Ubuntu 20.04",
-        "preInstalled": [
-          "apt",
-          "bash",
-          "coreutils",
-          "curl",
-          "wget",
-          "git",
-          "GCC",
-          "make",
-          "Perl",
-          "Python 3.8",
-          "OpenSSL 1.1"
-        ],
-        "lastUpdated": "2025-04-09T08:04:13.997023Z",
-        "size": 27510394
       }
     ]
   },
@@ -584,6 +565,18 @@
     "icon": "🦀",
     "images": [
       {
+        "value": "rust:1.98-alpine",
+        "label": "Rust 1.98-alpine",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy"
+        ],
+        "lastUpdated": "2026-09-09T01:45:57.53596Z",
+        "size": 349115712
+      },
+      {
         "value": "rust:1.98",
         "label": "Rust 1.98",
         "preInstalled": [
@@ -595,20 +588,8 @@
           "Git",
           "make"
         ],
-        "lastUpdated": "2026-09-01T04:44:26.600088Z",
-        "size": 592953245
-      },
-      {
-        "value": "rust:1.98-alpine",
-        "label": "Rust 1.98-alpine",
-        "preInstalled": [
-          "Rust",
-          "Cargo",
-          "rustfmt",
-          "clippy"
-        ],
-        "lastUpdated": "2026-08-20T19:46:24.034471Z",
-        "size": 349115881
+        "lastUpdated": "2026-09-09T01:45:55.483073Z",
+        "size": 592925923
       },
       {
         "value": "rust:1.97",
@@ -643,25 +624,23 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": [
-      {
-        "value": "eclipse-temurin:8",
-        "label": "Java 8",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-08-21T23:21:50.301747Z",
-        "size": 116868841
-      }
-    ]
+    "images": []
   },
   {
     "id": "dotnet",
     "label": ".NET",
     "icon": "🔷",
     "images": [
+      {
+        "value": "mcr.microsoft.com/dotnet/sdk:11.0",
+        "label": ".NET 11.0 SDK",
+        "preInstalled": [
+          ".NET SDK",
+          "dotnet CLI",
+          "NuGet",
+          "PowerShell"
+        ]
+      },
       {
         "value": "mcr.microsoft.com/dotnet/sdk:10.0",
         "label": ".NET 10.0 SDK",
@@ -695,16 +674,6 @@
       {
         "value": "mcr.microsoft.com/dotnet/sdk:7.0",
         "label": ".NET 7.0 SDK",
-        "preInstalled": [
-          ".NET SDK",
-          "dotnet CLI",
-          "NuGet",
-          "PowerShell"
-        ]
-      },
-      {
-        "value": "mcr.microsoft.com/dotnet/sdk:6.0",
-        "label": ".NET 6.0 SDK",
         "preInstalled": [
           ".NET SDK",
           "dotnet CLI",
