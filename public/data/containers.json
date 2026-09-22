@@ -391,6 +391,18 @@
     "icon": "🐍",
     "images": [
       {
+        "value": "python:3.14-alpine",
+        "label": "Python 3.14-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-09-21T17:08:27.69842Z",
+        "size": 17774999
+      },
+      {
         "value": "python:3.14",
         "label": "Python 3.14",
         "preInstalled": [
@@ -406,16 +418,16 @@
         "size": 415075037
       },
       {
-        "value": "python:3.14-alpine",
-        "label": "Python 3.14-alpine",
+        "value": "python:3.13-alpine",
+        "label": "Python 3.13-alpine",
         "preInstalled": [
           "Python",
           "pip",
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-09-18T05:09:09.682416Z",
-        "size": 17774999
+        "lastUpdated": "2026-09-21T17:07:46.627618Z",
+        "size": 16906875
       },
       {
         "value": "python:3.13",
@@ -433,6 +445,18 @@
         "size": 412977220
       },
       {
+        "value": "python:3.12-alpine",
+        "label": "Python 3.12-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-09-21T23:07:34.494435Z",
+        "size": 18037743
+      },
+      {
         "value": "python:3.12",
         "label": "Python 3.12",
         "preInstalled": [
@@ -448,6 +472,18 @@
         "size": 411054586
       },
       {
+        "value": "python:3.11-alpine",
+        "label": "Python 3.11-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-09-21T23:06:52.431504Z",
+        "size": 20395849
+      },
+      {
         "value": "python:3.11",
         "label": "Python 3.11",
         "preInstalled": [
@@ -461,6 +497,18 @@
         ],
         "lastUpdated": "2026-09-19T17:07:12.46414Z",
         "size": 409394331
+      },
+      {
+        "value": "python:3.10-alpine",
+        "label": "Python 3.10-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-09-22T02:06:27.636905Z",
+        "size": 19827468
       },
       {
         "value": "python:3.10",
@@ -522,6 +570,17 @@
     "icon": "🔵",
     "images": [
       {
+        "value": "golang:1.27-alpine",
+        "label": "Go 1.27-alpine",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "ca-certificates"
+        ],
+        "lastUpdated": "2026-09-21T13:23:11.119336Z",
+        "size": 75175309
+      },
+      {
         "value": "golang:1.27",
         "label": "Go 1.27",
         "preInstalled": [
@@ -535,15 +594,15 @@
         "size": 316244813
       },
       {
-        "value": "golang:1.27-alpine",
-        "label": "Go 1.27-alpine",
+        "value": "golang:1.26-alpine",
+        "label": "Go 1.26-alpine",
         "preInstalled": [
           "Go",
           "Git",
           "ca-certificates"
         ],
-        "lastUpdated": "2026-09-18T04:23:12.718709Z",
-        "size": 75175309
+        "lastUpdated": "2026-09-21T13:22:39.147278Z",
+        "size": 71405777
       },
       {
         "value": "golang:1.26",
@@ -557,17 +616,6 @@
         ],
         "lastUpdated": "2026-09-19T13:22:36.316389Z",
         "size": 312475263
-      },
-      {
-        "value": "golang:1.26-alpine",
-        "label": "Go 1.26-alpine",
-        "preInstalled": [
-          "Go",
-          "Git",
-          "ca-certificates"
-        ],
-        "lastUpdated": "2026-09-18T04:22:40.373377Z",
-        "size": 71405777
       }
     ]
   },
