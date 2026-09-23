@@ -342,6 +342,30 @@
     "icon": "🟢",
     "images": [
       {
+        "value": "node:26.10-alpine",
+        "label": "Node.js 26.10-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-09-22T20:40:02.60603Z",
+        "size": 67071638
+      },
+      {
+        "value": "node:26-alpine",
+        "label": "Node.js 26-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-09-22T20:39:08.996651Z",
+        "size": 67071638
+      },
+      {
         "value": "node:26",
         "label": "Node.js 26",
         "preInstalled": [
@@ -352,8 +376,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-09-19T14:39:32.079028Z",
-        "size": 443643510
+        "lastUpdated": "2026-09-22T20:39:01.565301Z",
+        "size": 443767428
       },
       {
         "value": "node:24",
@@ -684,19 +708,7 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": [
-      {
-        "value": "eclipse-temurin:26",
-        "label": "Java 26",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-09-18T02:24:03.445439Z",
-        "size": 152342678
-      }
-    ]
+    "images": []
   },
   {
     "id": "dotnet",
