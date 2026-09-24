@@ -380,18 +380,28 @@
         "size": 443767428
       },
       {
-        "value": "node:24",
-        "label": "Node.js 24",
+        "value": "node:22.23-alpine",
+        "label": "Node.js 22.23-alpine",
         "preInstalled": [
           "Node.js",
           "npm",
           "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
+          "corepack"
         ],
-        "lastUpdated": "2026-09-19T14:38:54.179123Z",
-        "size": 409764189
+        "lastUpdated": "2026-09-23T23:39:50.276202Z",
+        "size": 60697390
+      },
+      {
+        "value": "node:22-alpine",
+        "label": "Node.js 22-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-09-23T23:38:38.822883Z",
+        "size": 60697390
       },
       {
         "value": "node:22",
@@ -404,8 +414,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-09-19T14:38:13.025388Z",
-        "size": 408499334
+        "lastUpdated": "2026-09-23T23:38:22.21289Z",
+        "size": 408402241
       }
     ]
   },
@@ -557,24 +567,34 @@
     "icon": "🐘",
     "images": [
       {
-        "value": "php:8.4-alpine",
-        "label": "PHP 8.4-alpine",
+        "value": "php:8.3",
+        "label": "PHP 8.3",
         "preInstalled": [
           "PHP",
-          "php-cli"
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
         ],
-        "lastUpdated": "2026-09-20T06:56:56.858408Z",
-        "size": 41604841
+        "lastUpdated": "2026-09-24T00:55:56.382802Z",
+        "size": 180665007
       },
       {
-        "value": "php:8.3-alpine",
-        "label": "PHP 8.3-alpine",
+        "value": "php:8.2",
+        "label": "PHP 8.2",
         "preInstalled": [
           "PHP",
-          "php-cli"
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
         ],
-        "lastUpdated": "2026-09-20T12:55:50.478989Z",
-        "size": 37631770
+        "lastUpdated": "2026-09-24T06:54:46.619853Z",
+        "size": 179729053
       },
       {
         "value": "php:8.2-alpine",
