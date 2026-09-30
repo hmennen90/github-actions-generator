@@ -518,21 +518,6 @@
         "size": 20395849
       },
       {
-        "value": "python:3.11",
-        "label": "Python 3.11",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel",
-          "Git",
-          "GCC",
-          "make"
-        ],
-        "lastUpdated": "2026-09-19T17:07:12.46414Z",
-        "size": 409394331
-      },
-      {
         "value": "python:3.10-alpine",
         "label": "Python 3.10-alpine",
         "preInstalled": [
@@ -609,6 +594,19 @@
     "icon": "🔵",
     "images": [
       {
+        "value": "golang:1.27",
+        "label": "Go 1.27",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "GCC",
+          "ca-certificates",
+          "make"
+        ],
+        "lastUpdated": "2026-09-30T07:22:58.64018Z",
+        "size": 316244813
+      },
+      {
         "value": "golang:1.27-alpine",
         "label": "Go 1.27-alpine",
         "preInstalled": [
@@ -620,8 +618,8 @@
         "size": 75175309
       },
       {
-        "value": "golang:1.27",
-        "label": "Go 1.27",
+        "value": "golang:1.26",
+        "label": "Go 1.26",
         "preInstalled": [
           "Go",
           "Git",
@@ -629,8 +627,8 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-09-19T13:23:08.994397Z",
-        "size": 316244813
+        "lastUpdated": "2026-09-30T07:22:32.797598Z",
+        "size": 312475263
       },
       {
         "value": "golang:1.26-alpine",
@@ -642,19 +640,6 @@
         ],
         "lastUpdated": "2026-09-21T13:22:39.147278Z",
         "size": 71405777
-      },
-      {
-        "value": "golang:1.26",
-        "label": "Go 1.26",
-        "preInstalled": [
-          "Go",
-          "Git",
-          "GCC",
-          "ca-certificates",
-          "make"
-        ],
-        "lastUpdated": "2026-09-19T13:22:36.316389Z",
-        "size": 312475263
       }
     ]
   },
@@ -723,19 +708,7 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": [
-      {
-        "value": "eclipse-temurin:26",
-        "label": "Java 26",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-09-26T02:16:29.619205Z",
-        "size": 152347549
-      }
-    ]
+    "images": []
   },
   {
     "id": "dotnet",
