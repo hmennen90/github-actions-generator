@@ -703,37 +703,15 @@
     "icon": "☕",
     "images": [
       {
-        "value": "eclipse-temurin:26",
-        "label": "Java 26",
+        "value": "eclipse-temurin:27",
+        "label": "Java 27",
         "preInstalled": [
           "Java JDK",
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-10-02T05:22:31.1531Z",
-        "size": 155590891
-      },
-      {
-        "value": "eclipse-temurin:25",
-        "label": "Java 25",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-10-02T05:20:12.771862Z",
-        "size": 153647126
-      },
-      {
-        "value": "eclipse-temurin:21",
-        "label": "Java 21",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-10-02T05:17:47.592768Z",
-        "size": 226989503
+        "lastUpdated": "2026-10-03T02:17:54.152354Z",
+        "size": 154657279
       },
       {
         "value": "eclipse-temurin:8",
@@ -743,7 +721,7 @@
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-10-02T05:24:44.886294Z",
+        "lastUpdated": "2026-10-03T02:20:40.041284Z",
         "size": 120142405
       }
     ]
