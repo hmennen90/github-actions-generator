@@ -41,7 +41,7 @@
           "make",
           "Perl"
         ],
-        "lastUpdated": "2026-10-02T04:04:45.429062Z",
+        "lastUpdated": "2026-10-04T01:04:21.271073Z",
         "size": 41837909
       },
       {
@@ -113,7 +113,7 @@
           "Python 3.12",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-10-02T04:04:32.62097Z",
+        "lastUpdated": "2026-10-04T01:04:16.566829Z",
         "size": 29764422
       },
       {
@@ -132,7 +132,7 @@
           "Python 3.10",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-10-02T04:04:20.418262Z",
+        "lastUpdated": "2026-10-04T01:04:12.168719Z",
         "size": 29751627
       }
     ]
@@ -425,6 +425,33 @@
     "icon": "🐍",
     "images": [
       {
+        "value": "python:3.14-alpine",
+        "label": "Python 3.14-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-10-04T05:08:07.948736Z",
+        "size": 20380148
+      },
+      {
+        "value": "python:3.14",
+        "label": "Python 3.14",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-10-04T02:08:01.682848Z",
+        "size": 415127082
+      },
+      {
         "value": "python:3.13-alpine",
         "label": "Python 3.13-alpine",
         "preInstalled": [
@@ -433,7 +460,7 @@
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-10-02T02:08:51.560698Z",
+        "lastUpdated": "2026-10-04T08:07:33.762589Z",
         "size": 19506072
       },
       {
@@ -448,20 +475,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-02T02:08:45.895863Z",
+        "lastUpdated": "2026-10-04T05:07:33.758694Z",
         "size": 413009553
-      },
-      {
-        "value": "python:3.12-alpine",
-        "label": "Python 3.12-alpine",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel"
-        ],
-        "lastUpdated": "2026-10-02T05:08:52.022245Z",
-        "size": 20625725
       },
       {
         "value": "python:3.12",
@@ -475,8 +490,20 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-02T02:08:03.982089Z",
+        "lastUpdated": "2026-10-04T11:07:08.105417Z",
         "size": 411055456
+      },
+      {
+        "value": "python:3.12-alpine",
+        "label": "Python 3.12-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-10-02T05:08:52.022245Z",
+        "size": 20625725
       },
       {
         "value": "python:3.11-alpine",
