@@ -479,6 +479,18 @@
         "size": 413009553
       },
       {
+        "value": "python:3.12-alpine",
+        "label": "Python 3.12-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-10-04T14:07:06.99699Z",
+        "size": 20625725
+      },
+      {
         "value": "python:3.12",
         "label": "Python 3.12",
         "preInstalled": [
@@ -494,18 +506,6 @@
         "size": 411055456
       },
       {
-        "value": "python:3.12-alpine",
-        "label": "Python 3.12-alpine",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel"
-        ],
-        "lastUpdated": "2026-10-02T05:08:52.022245Z",
-        "size": 20625725
-      },
-      {
         "value": "python:3.11-alpine",
         "label": "Python 3.11-alpine",
         "preInstalled": [
@@ -514,7 +514,7 @@
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-10-02T05:07:40.869854Z",
+        "lastUpdated": "2026-10-04T17:06:51.365598Z",
         "size": 22985720
       },
       {
@@ -529,7 +529,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-02T05:07:35.149763Z",
+        "lastUpdated": "2026-10-04T17:06:45.694344Z",
         "size": 409415812
       },
       {
@@ -662,7 +662,7 @@
           "rustfmt",
           "clippy"
         ],
-        "lastUpdated": "2026-10-02T04:45:04.478282Z",
+        "lastUpdated": "2026-10-04T19:44:53.32428Z",
         "size": 352050417
       },
       {
@@ -677,7 +677,7 @@
           "Git",
           "make"
         ],
-        "lastUpdated": "2026-10-02T04:45:02.133441Z",
+        "lastUpdated": "2026-10-04T19:44:51.144852Z",
         "size": 601017062
       },
       {
@@ -729,17 +729,6 @@
     "label": "Java",
     "icon": "☕",
     "images": [
-      {
-        "value": "eclipse-temurin:27",
-        "label": "Java 27",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-10-03T02:17:54.152354Z",
-        "size": 154657279
-      },
       {
         "value": "eclipse-temurin:8",
         "label": "Java 8",
