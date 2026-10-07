@@ -352,7 +352,7 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-10-06T05:40:50.848305Z",
+        "lastUpdated": "2026-10-06T17:39:35.388874Z",
         "size": 444341129
       },
       {
@@ -366,7 +366,7 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-10-06T05:39:40.347292Z",
+        "lastUpdated": "2026-10-06T17:38:56.642401Z",
         "size": 411895592
       },
       {
@@ -392,7 +392,7 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-10-06T08:38:13.233242Z",
+        "lastUpdated": "2026-10-06T17:38:13.718636Z",
         "size": 410533676
       },
       {
@@ -426,7 +426,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-06T08:11:08.79997Z",
+        "lastUpdated": "2026-10-06T20:07:50.532919Z",
         "size": 415691658
       },
       {
@@ -441,7 +441,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-06T08:10:12.959088Z",
+        "lastUpdated": "2026-10-06T20:07:19.011104Z",
         "size": 413576266
       },
       {
@@ -456,7 +456,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-06T08:09:17.807727Z",
+        "lastUpdated": "2026-10-06T23:07:06.528219Z",
         "size": 411620271
       },
       {
@@ -471,7 +471,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-06T08:08:19.163916Z",
+        "lastUpdated": "2026-10-06T23:06:29.089254Z",
         "size": 409973844
       },
       {
@@ -508,7 +508,7 @@
           "Git",
           "GCC"
         ],
-        "lastUpdated": "2026-10-06T07:03:18.973638Z",
+        "lastUpdated": "2026-10-06T18:58:14.415315Z",
         "size": 189388156
       },
       {
@@ -523,8 +523,23 @@
           "Git",
           "GCC"
         ],
-        "lastUpdated": "2026-10-06T07:00:46.761018Z",
+        "lastUpdated": "2026-10-07T00:57:05.970787Z",
         "size": 185470529
+      },
+      {
+        "value": "php:8.3",
+        "label": "PHP 8.3",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-10-07T03:55:52.683125Z",
+        "size": 180690386
       }
     ]
   },
@@ -543,7 +558,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-10-06T07:23:22.12146Z",
+        "lastUpdated": "2026-10-06T16:23:11.206223Z",
         "size": 316331414
       },
       {
@@ -567,7 +582,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-10-06T07:22:47.051444Z",
+        "lastUpdated": "2026-10-06T16:22:37.130079Z",
         "size": 312562152
       },
       {
@@ -600,7 +615,7 @@
           "Git",
           "make"
         ],
-        "lastUpdated": "2026-10-06T07:44:52.716121Z",
+        "lastUpdated": "2026-10-06T19:44:30.947834Z",
         "size": 601590777
       },
       {
@@ -663,19 +678,7 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": [
-      {
-        "value": "eclipse-temurin:8",
-        "label": "Java 8",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-10-03T02:20:40.041284Z",
-        "size": 120142405
-      }
-    ]
+    "images": []
   },
   {
     "id": "dotnet",
