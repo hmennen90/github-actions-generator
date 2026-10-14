@@ -426,7 +426,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-13T02:08:18.906696Z",
+        "lastUpdated": "2026-10-14T02:08:46.976493Z",
         "size": 417893045
       },
       {
@@ -453,7 +453,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-11T14:07:38.509073Z",
+        "lastUpdated": "2026-10-14T02:08:07.809129Z",
         "size": 415691658
       },
       {
@@ -468,7 +468,7 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-11T17:07:09.243405Z",
+        "lastUpdated": "2026-10-14T02:07:23.052105Z",
         "size": 413576266
       },
       {
@@ -524,7 +524,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-10-13T07:22:48.861438Z",
+        "lastUpdated": "2026-10-14T01:23:37.005318Z",
         "size": 316399284
       },
       {
@@ -539,17 +539,6 @@
         "size": 75242897
       },
       {
-        "value": "golang:1.26-alpine",
-        "label": "Go 1.26-alpine",
-        "preInstalled": [
-          "Go",
-          "Git",
-          "ca-certificates"
-        ],
-        "lastUpdated": "2026-10-10T10:22:41.85435Z",
-        "size": 71450581
-      },
-      {
         "value": "golang:1.26",
         "label": "Go 1.26",
         "preInstalled": [
@@ -559,8 +548,19 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-10-10T10:22:35.83689Z",
+        "lastUpdated": "2026-10-14T01:22:49.460456Z",
         "size": 312607016
+      },
+      {
+        "value": "golang:1.26-alpine",
+        "label": "Go 1.26-alpine",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "ca-certificates"
+        ],
+        "lastUpdated": "2026-10-10T10:22:41.85435Z",
+        "size": 71450581
       }
     ]
   },
@@ -644,7 +644,30 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": []
+    "images": [
+      {
+        "value": "eclipse-temurin:27",
+        "label": "Java 27",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-10-14T02:22:03.848291Z",
+        "size": 154657279
+      },
+      {
+        "value": "eclipse-temurin:8",
+        "label": "Java 8",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-10-14T02:23:57.155785Z",
+        "size": 120142405
+      }
+    ]
   },
   {
     "id": "dotnet",
