@@ -342,16 +342,16 @@
     "icon": "🟢",
     "images": [
       {
-        "value": "node:26.11-alpine",
-        "label": "Node.js 26.11-alpine",
+        "value": "node:26.12-alpine",
+        "label": "Node.js 26.12-alpine",
         "preInstalled": [
           "Node.js",
           "npm",
           "yarn",
           "corepack"
         ],
-        "lastUpdated": "2026-10-08T23:40:01.183938Z",
-        "size": 62797626
+        "lastUpdated": "2026-10-14T20:41:45.2404Z",
+        "size": 62903952
       },
       {
         "value": "node:26-alpine",
@@ -362,8 +362,8 @@
           "yarn",
           "corepack"
         ],
-        "lastUpdated": "2026-10-08T23:39:09.274542Z",
-        "size": 62797626
+        "lastUpdated": "2026-10-14T20:40:51.09005Z",
+        "size": 62903952
       },
       {
         "value": "node:26",
@@ -376,8 +376,32 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-10-08T23:39:02.001652Z",
-        "size": 444478583
+        "lastUpdated": "2026-10-14T20:40:43.899139Z",
+        "size": 444564667
+      },
+      {
+        "value": "node:24.22-alpine",
+        "label": "Node.js 24.22-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-10-14T20:39:56.46019Z",
+        "size": 62446568
+      },
+      {
+        "value": "node:24-alpine",
+        "label": "Node.js 24-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-10-14T20:38:55.449061Z",
+        "size": 62446568
       },
       {
         "value": "node:24",
@@ -390,22 +414,8 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-10-06T17:38:56.642401Z",
-        "size": 411895592
-      },
-      {
-        "value": "node:22",
-        "label": "Node.js 22",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
-        ],
-        "lastUpdated": "2026-10-06T17:38:13.718636Z",
-        "size": 410533676
+        "lastUpdated": "2026-10-14T20:38:44.805582Z",
+        "size": 412084294
       }
     ]
   },
@@ -414,6 +424,18 @@
     "label": "Python",
     "icon": "🐍",
     "images": [
+      {
+        "value": "python:3.15-alpine",
+        "label": "Python 3.15-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-10-14T14:08:18.839764Z",
+        "size": 21029118
+      },
       {
         "value": "python:3.15",
         "label": "Python 3.15",
@@ -426,20 +448,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-14T02:08:46.976493Z",
+        "lastUpdated": "2026-10-14T11:08:06.865233Z",
         "size": 417893045
-      },
-      {
-        "value": "python:3.15-alpine",
-        "label": "Python 3.15-alpine",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel"
-        ],
-        "lastUpdated": "2026-10-12T23:09:54.662553Z",
-        "size": 21029118
       },
       {
         "value": "python:3.14",
