@@ -24,8 +24,8 @@
           "make",
           "Perl"
         ],
-        "lastUpdated": "2026-09-18T19:04:23.809001Z",
-        "size": 45242748
+        "lastUpdated": "2026-10-17T04:04:26.44193Z",
+        "size": 43022829
       },
       {
         "value": "ubuntu:26.04",
@@ -41,8 +41,8 @@
           "make",
           "Perl"
         ],
-        "lastUpdated": "2026-10-04T01:04:21.271073Z",
-        "size": 41837909
+        "lastUpdated": "2026-10-17T04:04:21.6957Z",
+        "size": 42149508
       },
       {
         "value": "ubuntu:25.10",
@@ -113,8 +113,8 @@
           "Python 3.12",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-10-04T01:04:16.566829Z",
-        "size": 29764422
+        "lastUpdated": "2026-10-17T04:04:16.995187Z",
+        "size": 29765758
       },
       {
         "value": "ubuntu:22.04",
@@ -132,8 +132,8 @@
           "Python 3.10",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-10-04T01:04:12.168719Z",
-        "size": 29751627
+        "lastUpdated": "2026-10-17T04:04:12.526577Z",
+        "size": 29752476
       }
     ]
   },
@@ -433,8 +433,8 @@
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-10-14T14:08:18.839764Z",
-        "size": 21029118
+        "lastUpdated": "2026-10-17T02:09:44.986277Z",
+        "size": 22257777
       },
       {
         "value": "python:3.15",
@@ -448,8 +448,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-14T11:08:06.865233Z",
-        "size": 417893045
+        "lastUpdated": "2026-10-17T02:09:41.4431Z",
+        "size": 418608801
       },
       {
         "value": "python:3.14",
@@ -588,7 +588,7 @@
           "rustfmt",
           "clippy"
         ],
-        "lastUpdated": "2026-10-15T22:45:36.577465Z",
+        "lastUpdated": "2026-10-16T13:44:55.10222Z",
         "size": 352075110
       },
       {
@@ -603,7 +603,7 @@
           "Git",
           "make"
         ],
-        "lastUpdated": "2026-10-15T22:45:34.254075Z",
+        "lastUpdated": "2026-10-16T13:44:52.769348Z",
         "size": 601630983
       },
       {
@@ -663,8 +663,41 @@
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-10-14T02:22:03.848291Z",
-        "size": 154657279
+        "lastUpdated": "2026-10-17T05:22:38.407112Z",
+        "size": 151989892
+      },
+      {
+        "value": "eclipse-temurin:26",
+        "label": "Java 26",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-10-17T05:20:43.194962Z",
+        "size": 152923575
+      },
+      {
+        "value": "eclipse-temurin:25",
+        "label": "Java 25",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-10-17T05:18:43.55247Z",
+        "size": 150979928
+      },
+      {
+        "value": "eclipse-temurin:21",
+        "label": "Java 21",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-10-17T05:16:35.782433Z",
+        "size": 224331312
       },
       {
         "value": "eclipse-temurin:8",
@@ -674,8 +707,8 @@
           "jlink",
           "jshell"
         ],
-        "lastUpdated": "2026-10-14T02:23:57.155785Z",
-        "size": 120142405
+        "lastUpdated": "2026-10-17T05:23:36.279387Z",
+        "size": 117484855
       }
     ]
   },
