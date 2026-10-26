@@ -558,16 +558,6 @@
     "icon": "🐘",
     "images": [
       {
-        "value": "php:8.5-alpine",
-        "label": "PHP 8.5-alpine",
-        "preInstalled": [
-          "PHP",
-          "php-cli"
-        ],
-        "lastUpdated": "2026-10-25T00:58:13.909506Z",
-        "size": 44853632
-      },
-      {
         "value": "php:8.4-alpine",
         "label": "PHP 8.4-alpine",
         "preInstalled": [
@@ -576,6 +566,26 @@
         ],
         "lastUpdated": "2026-10-25T06:57:02.928733Z",
         "size": 41781736
+      },
+      {
+        "value": "php:8.3-alpine",
+        "label": "PHP 8.3-alpine",
+        "preInstalled": [
+          "PHP",
+          "php-cli"
+        ],
+        "lastUpdated": "2026-10-25T12:55:53.783319Z",
+        "size": 37765606
+      },
+      {
+        "value": "php:8.2-alpine",
+        "label": "PHP 8.2-alpine",
+        "preInstalled": [
+          "PHP",
+          "php-cli"
+        ],
+        "lastUpdated": "2026-10-25T18:54:47.305207Z",
+        "size": 36949001
       }
     ]
   },
