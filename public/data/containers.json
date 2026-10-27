@@ -24,8 +24,8 @@
           "make",
           "Perl"
         ],
-        "lastUpdated": "2026-10-17T04:04:26.44193Z",
-        "size": 43022829
+        "lastUpdated": "2026-10-27T01:04:56.589625Z",
+        "size": 43007736
       },
       {
         "value": "ubuntu:26.04",
@@ -41,8 +41,8 @@
           "make",
           "Perl"
         ],
-        "lastUpdated": "2026-10-17T04:04:21.6957Z",
-        "size": 42149508
+        "lastUpdated": "2026-10-27T01:04:43.352511Z",
+        "size": 42140312
       },
       {
         "value": "ubuntu:25.10",
@@ -113,8 +113,8 @@
           "Python 3.12",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-10-17T04:04:16.995187Z",
-        "size": 29765758
+        "lastUpdated": "2026-10-27T01:04:32.484788Z",
+        "size": 29767612
       },
       {
         "value": "ubuntu:22.04",
@@ -132,8 +132,8 @@
           "Python 3.10",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-10-17T04:04:12.526577Z",
-        "size": 29752476
+        "lastUpdated": "2026-10-27T01:04:20.529985Z",
+        "size": 29752488
       }
     ]
   },
@@ -454,8 +454,8 @@
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-10-22T17:09:24.321893Z",
-        "size": 19643882
+        "lastUpdated": "2026-10-27T02:14:17.917323Z",
+        "size": 19670132
       },
       {
         "value": "python:3.15",
@@ -469,35 +469,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-22T08:08:39.682602Z",
-        "size": 418727404
-      },
-      {
-        "value": "python:3.14-alpine",
-        "label": "Python 3.14-alpine",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel"
-        ],
-        "lastUpdated": "2026-10-22T17:08:44.110729Z",
-        "size": 17820991
-      },
-      {
-        "value": "python:3.14",
-        "label": "Python 3.14",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel",
-          "Git",
-          "GCC",
-          "make"
-        ],
-        "lastUpdated": "2026-10-22T08:07:57.585338Z",
-        "size": 415783813
+        "lastUpdated": "2026-10-27T02:14:12.412028Z",
+        "size": 418778071
       },
       {
         "value": "python:3.13-alpine",
@@ -508,8 +481,8 @@
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-10-22T17:08:00.558454Z",
-        "size": 16932000
+        "lastUpdated": "2026-10-27T05:09:49.928534Z",
+        "size": 16934809
       },
       {
         "value": "python:3.13",
@@ -523,8 +496,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-10-22T11:07:24.338744Z",
-        "size": 413631605
+        "lastUpdated": "2026-10-27T05:09:41.923805Z",
+        "size": 413634114
       },
       {
         "value": "python:3.12-alpine",
@@ -535,8 +508,23 @@
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-10-22T17:07:20.824697Z",
-        "size": 18042452
+        "lastUpdated": "2026-10-27T05:08:29.262842Z",
+        "size": 18044895
+      },
+      {
+        "value": "python:3.12",
+        "label": "Python 3.12",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-10-27T05:08:20.747824Z",
+        "size": 411693553
       },
       {
         "value": "python:3.11-alpine",
@@ -547,8 +535,23 @@
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-10-22T17:06:39.328343Z",
-        "size": 20400916
+        "lastUpdated": "2026-10-27T08:06:29.996227Z",
+        "size": 20402428
+      },
+      {
+        "value": "python:3.11",
+        "label": "Python 3.11",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-10-27T08:06:21.47029Z",
+        "size": 410009666
       }
     ]
   },
@@ -602,7 +605,7 @@
           "Git",
           "ca-certificates"
         ],
-        "lastUpdated": "2026-10-22T16:23:11.727129Z",
+        "lastUpdated": "2026-10-27T01:23:23.748277Z",
         "size": 75248133
       },
       {
@@ -615,7 +618,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-10-21T16:23:10.952165Z",
+        "lastUpdated": "2026-10-27T01:23:20.678331Z",
         "size": 316443642
       },
       {
@@ -626,7 +629,7 @@
           "Git",
           "ca-certificates"
         ],
-        "lastUpdated": "2026-10-22T16:22:38.133399Z",
+        "lastUpdated": "2026-10-27T01:22:45.272781Z",
         "size": 71449676
       },
       {
@@ -639,7 +642,7 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-10-21T16:22:37.368746Z",
+        "lastUpdated": "2026-10-27T01:22:39.618551Z",
         "size": 312645214
       }
     ]
@@ -724,7 +727,41 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": []
+    "images": [
+      {
+        "value": "eclipse-temurin:27",
+        "label": "Java 27",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-10-27T05:20:07.839858Z",
+        "size": 151983777
+      },
+      {
+        "value": "eclipse-temurin:26",
+        "label": "Java 26",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-10-27T05:18:39.39547Z",
+        "size": 152917383
+      },
+      {
+        "value": "eclipse-temurin:25",
+        "label": "Java 25",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-10-27T05:17:03.079715Z",
+        "size": 150973719
+      }
+    ]
   },
   {
     "id": "dotnet",
