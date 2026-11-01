@@ -578,6 +578,36 @@
         ],
         "lastUpdated": "2026-10-31T09:57:07.646651Z",
         "size": 185636524
+      },
+      {
+        "value": "php:8.3",
+        "label": "PHP 8.3",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-10-31T15:55:46.941282Z",
+        "size": 180835303
+      },
+      {
+        "value": "php:8.2",
+        "label": "PHP 8.2",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-10-31T18:54:45.355713Z",
+        "size": 179886097
       }
     ]
   },
