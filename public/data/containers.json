@@ -151,8 +151,8 @@
           "musl libc",
           "sh"
         ],
-        "lastUpdated": "2026-10-23T05:24:40.757345Z",
-        "size": 3853109
+        "lastUpdated": "2026-11-05T23:24:41.918199Z",
+        "size": 3853673
       },
       {
         "value": "alpine:3.23",
@@ -163,8 +163,8 @@
           "musl libc",
           "sh"
         ],
-        "lastUpdated": "2026-10-23T05:24:34.854374Z",
-        "size": 3852227
+        "lastUpdated": "2026-11-05T23:24:35.827082Z",
+        "size": 3852589
       },
       {
         "value": "alpine:3.22",
@@ -175,8 +175,8 @@
           "musl libc",
           "sh"
         ],
-        "lastUpdated": "2026-10-23T05:24:26.745389Z",
-        "size": 3794357
+        "lastUpdated": "2026-11-05T23:24:27.027467Z",
+        "size": 3794375
       },
       {
         "value": "alpine:3.21",
@@ -187,8 +187,8 @@
           "musl libc",
           "sh"
         ],
-        "lastUpdated": "2026-10-23T05:24:18.450367Z",
-        "size": 3625395
+        "lastUpdated": "2026-11-05T23:24:18.623635Z",
+        "size": 3625402
       },
       {
         "value": "alpine:3.20",
@@ -325,6 +325,18 @@
     "icon": "🟢",
     "images": [
       {
+        "value": "node:26.13-alpine",
+        "label": "Node.js 26.13-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-11-05T23:40:19.936345Z",
+        "size": 62945726
+      },
+      {
         "value": "node:26",
         "label": "Node.js 26",
         "preInstalled": [
@@ -335,8 +347,32 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-11-05T11:41:03.220481Z",
+        "lastUpdated": "2026-11-06T02:39:40.710368Z",
         "size": 444900059
+      },
+      {
+        "value": "node:26-alpine",
+        "label": "Node.js 26-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-11-05T23:40:06.191175Z",
+        "size": 62945726
+      },
+      {
+        "value": "node:24.22-alpine",
+        "label": "Node.js 24.22-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-11-05T23:39:42.405929Z",
+        "size": 62493930
       },
       {
         "value": "node:24",
@@ -349,8 +385,32 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-11-05T11:39:48.530147Z",
+        "lastUpdated": "2026-11-06T02:38:55.560619Z",
         "size": 409959223
+      },
+      {
+        "value": "node:24-alpine",
+        "label": "Node.js 24-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-11-05T23:39:25.907403Z",
+        "size": 62493930
+      },
+      {
+        "value": "node:22.23-alpine",
+        "label": "Node.js 22.23-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-11-05T23:38:52.730517Z",
+        "size": 61338870
       },
       {
         "value": "node:22",
@@ -363,8 +423,20 @@
           "Git",
           "Python 3"
         ],
-        "lastUpdated": "2026-11-05T11:38:18.281077Z",
+        "lastUpdated": "2026-11-06T02:38:13.172275Z",
         "size": 408427883
+      },
+      {
+        "value": "node:22-alpine",
+        "label": "Node.js 22-alpine",
+        "preInstalled": [
+          "Node.js",
+          "npm",
+          "yarn",
+          "corepack"
+        ],
+        "lastUpdated": "2026-11-05T23:38:26.641495Z",
+        "size": 61338870
       }
     ]
   },
@@ -373,6 +445,18 @@
     "label": "Python",
     "icon": "🐍",
     "images": [
+      {
+        "value": "python:3.15-alpine",
+        "label": "Python 3.15-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-11-06T05:09:35.800144Z",
+        "size": 19670553
+      },
       {
         "value": "python:3.15",
         "label": "Python 3.15",
@@ -385,8 +469,20 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-11-05T11:14:00.976012Z",
+        "lastUpdated": "2026-11-06T05:09:32.951194Z",
         "size": 419023866
+      },
+      {
+        "value": "python:3.14-alpine",
+        "label": "Python 3.14-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-11-06T05:08:45.396779Z",
+        "size": 17846119
       },
       {
         "value": "python:3.14",
@@ -400,8 +496,20 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-11-05T11:12:32.243067Z",
+        "lastUpdated": "2026-11-06T05:08:39.677146Z",
         "size": 416079037
+      },
+      {
+        "value": "python:3.13-alpine",
+        "label": "Python 3.13-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-11-06T05:07:52.094305Z",
+        "size": 16935120
       },
       {
         "value": "python:3.13",
@@ -415,8 +523,20 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-11-05T11:10:55.813921Z",
+        "lastUpdated": "2026-11-06T05:07:45.934682Z",
         "size": 413879818
+      },
+      {
+        "value": "python:3.12-alpine",
+        "label": "Python 3.12-alpine",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel"
+        ],
+        "lastUpdated": "2026-11-06T08:07:25.109248Z",
+        "size": 18045287
       },
       {
         "value": "python:3.12",
@@ -430,20 +550,20 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-11-05T11:09:20.014442Z",
+        "lastUpdated": "2026-11-06T08:07:19.151538Z",
         "size": 411931458
       },
       {
-        "value": "python:3.12-alpine",
-        "label": "Python 3.12-alpine",
+        "value": "python:3.11-alpine",
+        "label": "Python 3.11-alpine",
         "preInstalled": [
           "Python",
           "pip",
           "setuptools",
           "wheel"
         ],
-        "lastUpdated": "2026-10-29T20:07:21.268486Z",
-        "size": 18044895
+        "lastUpdated": "2026-11-06T08:06:33.465809Z",
+        "size": 20402945
       },
       {
         "value": "python:3.11",
@@ -457,20 +577,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-11-05T11:07:38.252755Z",
+        "lastUpdated": "2026-11-06T08:06:27.576903Z",
         "size": 410270111
-      },
-      {
-        "value": "python:3.11-alpine",
-        "label": "Python 3.11-alpine",
-        "preInstalled": [
-          "Python",
-          "pip",
-          "setuptools",
-          "wheel"
-        ],
-        "lastUpdated": "2026-10-29T20:06:49.594489Z",
-        "size": 20402428
       }
     ]
   },
@@ -479,6 +587,36 @@
     "label": "PHP",
     "icon": "🐘",
     "images": [
+      {
+        "value": "php:8.4",
+        "label": "PHP 8.4",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-11-06T03:57:14.87416Z",
+        "size": 185637066
+      },
+      {
+        "value": "php:8.3",
+        "label": "PHP 8.3",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-11-06T09:55:52.688602Z",
+        "size": 180835885
+      },
       {
         "value": "php:8.2",
         "label": "PHP 8.2",
@@ -491,7 +629,7 @@
           "Git",
           "GCC"
         ],
-        "lastUpdated": "2026-11-05T12:54:47.267572Z",
+        "lastUpdated": "2026-11-06T12:54:46.146666Z",
         "size": 179887215
       }
     ]
@@ -502,6 +640,17 @@
     "icon": "🔵",
     "images": [
       {
+        "value": "golang:1.27-alpine",
+        "label": "Go 1.27-alpine",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "ca-certificates"
+        ],
+        "lastUpdated": "2026-11-06T01:23:09.789296Z",
+        "size": 75248702
+      },
+      {
         "value": "golang:1.27",
         "label": "Go 1.27",
         "preInstalled": [
@@ -511,19 +660,19 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-11-05T13:23:11.871424Z",
+        "lastUpdated": "2026-11-05T22:23:53.671249Z",
         "size": 316486036
       },
       {
-        "value": "golang:1.27-alpine",
-        "label": "Go 1.27-alpine",
+        "value": "golang:1.26-alpine",
+        "label": "Go 1.26-alpine",
         "preInstalled": [
           "Go",
           "Git",
           "ca-certificates"
         ],
-        "lastUpdated": "2026-10-27T01:23:23.748277Z",
-        "size": 75248133
+        "lastUpdated": "2026-11-06T01:22:37.881367Z",
+        "size": 71450227
       },
       {
         "value": "golang:1.26",
@@ -535,19 +684,8 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-11-05T13:22:38.337573Z",
+        "lastUpdated": "2026-11-05T22:22:56.138811Z",
         "size": 312687501
-      },
-      {
-        "value": "golang:1.26-alpine",
-        "label": "Go 1.26-alpine",
-        "preInstalled": [
-          "Go",
-          "Git",
-          "ca-certificates"
-        ],
-        "lastUpdated": "2026-10-27T01:22:45.272781Z",
-        "size": 71449676
       }
     ]
   },
@@ -556,6 +694,18 @@
     "label": "Rust",
     "icon": "🦀",
     "images": [
+      {
+        "value": "rust:1.99-alpine",
+        "label": "Rust 1.99-alpine",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy"
+        ],
+        "lastUpdated": "2026-11-06T07:44:48.050864Z",
+        "size": 352121318
+      },
       {
         "value": "rust:1.99",
         "label": "Rust 1.99",
@@ -568,20 +718,8 @@
           "Git",
           "make"
         ],
-        "lastUpdated": "2026-11-05T13:44:35.680384Z",
+        "lastUpdated": "2026-11-06T07:44:45.831289Z",
         "size": 602009422
-      },
-      {
-        "value": "rust:1.99-alpine",
-        "label": "Rust 1.99-alpine",
-        "preInstalled": [
-          "Rust",
-          "Cargo",
-          "rustfmt",
-          "clippy"
-        ],
-        "lastUpdated": "2026-11-05T01:44:46.151036Z",
-        "size": 352120819
       },
       {
         "value": "rust:1.98",
