@@ -588,34 +588,14 @@
     "icon": "🐘",
     "images": [
       {
-        "value": "php:8.4",
-        "label": "PHP 8.4",
+        "value": "php:8.5-alpine",
+        "label": "PHP 8.5-alpine",
         "preInstalled": [
           "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
+          "php-cli"
         ],
-        "lastUpdated": "2026-11-06T03:57:14.87416Z",
-        "size": 185637066
-      },
-      {
-        "value": "php:8.3",
-        "label": "PHP 8.3",
-        "preInstalled": [
-          "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
-        ],
-        "lastUpdated": "2026-11-06T09:55:52.688602Z",
-        "size": 180835885
+        "lastUpdated": "2026-11-10T09:58:17.213823Z",
+        "size": 44860075
       },
       {
         "value": "php:8.2",
@@ -769,7 +749,19 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": []
+    "images": [
+      {
+        "value": "eclipse-temurin:8",
+        "label": "Java 8",
+        "preInstalled": [
+          "Java JDK",
+          "jlink",
+          "jshell"
+        ],
+        "lastUpdated": "2026-11-10T02:23:00.816676Z",
+        "size": 117489956
+      }
+    ]
   },
   {
     "id": "dotnet",
