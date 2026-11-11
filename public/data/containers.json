@@ -588,29 +588,14 @@
     "icon": "🐘",
     "images": [
       {
-        "value": "php:8.5-alpine",
-        "label": "PHP 8.5-alpine",
+        "value": "php:8.2-alpine",
+        "label": "PHP 8.2-alpine",
         "preInstalled": [
           "PHP",
           "php-cli"
         ],
-        "lastUpdated": "2026-11-10T09:58:17.213823Z",
-        "size": 44860075
-      },
-      {
-        "value": "php:8.2",
-        "label": "PHP 8.2",
-        "preInstalled": [
-          "PHP",
-          "php-cli",
-          "php-json",
-          "php-mbstring",
-          "php-xml",
-          "Git",
-          "GCC"
-        ],
-        "lastUpdated": "2026-11-06T12:54:46.146666Z",
-        "size": 179887215
+        "lastUpdated": "2026-11-11T03:54:49.475694Z",
+        "size": 36955540
       }
     ]
   },
@@ -619,17 +604,6 @@
     "label": "Go",
     "icon": "🔵",
     "images": [
-      {
-        "value": "golang:1.27-alpine",
-        "label": "Go 1.27-alpine",
-        "preInstalled": [
-          "Go",
-          "Git",
-          "ca-certificates"
-        ],
-        "lastUpdated": "2026-11-06T01:23:09.789296Z",
-        "size": 75248702
-      },
       {
         "value": "golang:1.27",
         "label": "Go 1.27",
@@ -640,8 +614,19 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-11-05T22:23:53.671249Z",
-        "size": 316486036
+        "lastUpdated": "2026-11-10T18:54:54.548724Z",
+        "size": 316559442
+      },
+      {
+        "value": "golang:1.27-alpine",
+        "label": "Go 1.27-alpine",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "ca-certificates"
+        ],
+        "lastUpdated": "2026-11-10T18:33:35.96222Z",
+        "size": 75322140
       },
       {
         "value": "golang:1.26-alpine",
@@ -651,8 +636,8 @@
           "Git",
           "ca-certificates"
         ],
-        "lastUpdated": "2026-11-06T01:22:37.881367Z",
-        "size": 71450227
+        "lastUpdated": "2026-11-10T18:54:20.712956Z",
+        "size": 71517736
       },
       {
         "value": "golang:1.26",
@@ -664,8 +649,8 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-11-05T22:22:56.138811Z",
-        "size": 312687501
+        "lastUpdated": "2026-11-10T18:54:15.44252Z",
+        "size": 312755293
       }
     ]
   },
@@ -749,19 +734,7 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": [
-      {
-        "value": "eclipse-temurin:8",
-        "label": "Java 8",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-11-10T02:23:00.816676Z",
-        "size": 117489956
-      }
-    ]
+    "images": []
   },
   {
     "id": "dotnet",
