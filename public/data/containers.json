@@ -390,20 +390,6 @@
         ],
         "lastUpdated": "2026-11-12T02:38:14.970497Z",
         "size": 61366182
-      },
-      {
-        "value": "node:22",
-        "label": "Node.js 22",
-        "preInstalled": [
-          "Node.js",
-          "npm",
-          "yarn",
-          "corepack",
-          "Git",
-          "Python 3"
-        ],
-        "lastUpdated": "2026-11-11T20:38:19.020124Z",
-        "size": 408439522
       }
     ]
   },
@@ -582,6 +568,33 @@
     "icon": "🦀",
     "images": [
       {
+        "value": "rust:1.100-alpine",
+        "label": "Rust 1.100-alpine",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy"
+        ],
+        "lastUpdated": "2026-11-12T22:46:00.216141Z",
+        "size": 354207032
+      },
+      {
+        "value": "rust:1.100",
+        "label": "Rust 1.100",
+        "preInstalled": [
+          "Rust",
+          "Cargo",
+          "rustfmt",
+          "clippy",
+          "GCC",
+          "Git",
+          "make"
+        ],
+        "lastUpdated": "2026-11-12T22:45:58.069716Z",
+        "size": 604162819
+      },
+      {
         "value": "rust:1.99-alpine",
         "label": "Rust 1.99-alpine",
         "preInstalled": [
@@ -634,21 +647,6 @@
         ],
         "lastUpdated": "2026-09-18T19:46:04.072467Z",
         "size": 349226069
-      },
-      {
-        "value": "rust:1.97",
-        "label": "Rust 1.97",
-        "preInstalled": [
-          "Rust",
-          "Cargo",
-          "rustfmt",
-          "clippy",
-          "GCC",
-          "Git",
-          "make"
-        ],
-        "lastUpdated": "2026-08-14T10:44:30.069536Z",
-        "size": 596921794
       }
     ]
   },
