@@ -494,18 +494,7 @@
     "id": "php",
     "label": "PHP",
     "icon": "🐘",
-    "images": [
-      {
-        "value": "php:8.2-alpine",
-        "label": "PHP 8.2-alpine",
-        "preInstalled": [
-          "PHP",
-          "php-cli"
-        ],
-        "lastUpdated": "2026-11-11T03:54:49.475694Z",
-        "size": 36955540
-      }
-    ]
+    "images": []
   },
   {
     "id": "golang",
@@ -665,17 +654,6 @@
         ],
         "lastUpdated": "2026-11-12T05:15:41.834722Z",
         "size": 152021663
-      },
-      {
-        "value": "eclipse-temurin:25",
-        "label": "Java 25",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-11-12T02:21:35.007944Z",
-        "size": 150981853
       },
       {
         "value": "eclipse-temurin:11",
