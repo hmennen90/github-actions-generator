@@ -399,6 +399,21 @@
     "icon": "🐍",
     "images": [
       {
+        "value": "python:3.15",
+        "label": "Python 3.15",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-11-17T05:08:01.345941Z",
+        "size": 419023866
+      },
+      {
         "value": "python:3.15-alpine",
         "label": "Python 3.15-alpine",
         "preInstalled": [
@@ -411,8 +426,8 @@
         "size": 19670553
       },
       {
-        "value": "python:3.15",
-        "label": "Python 3.15",
+        "value": "python:3.14",
+        "label": "Python 3.14",
         "preInstalled": [
           "Python",
           "pip",
@@ -422,8 +437,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-11-11T23:08:30.042862Z",
-        "size": 419023866
+        "lastUpdated": "2026-11-17T08:07:49.307209Z",
+        "size": 416079037
       },
       {
         "value": "python:3.14-alpine",
@@ -438,8 +453,8 @@
         "size": 17846119
       },
       {
-        "value": "python:3.14",
-        "label": "Python 3.14",
+        "value": "python:3.13",
+        "label": "Python 3.13",
         "preInstalled": [
           "Python",
           "pip",
@@ -449,8 +464,8 @@
           "GCC",
           "make"
         ],
-        "lastUpdated": "2026-11-11T23:07:52.49146Z",
-        "size": 416079037
+        "lastUpdated": "2026-11-17T08:07:16.759994Z",
+        "size": 413879818
       },
       {
         "value": "python:3.13-alpine",
@@ -465,6 +480,21 @@
         "size": 16935120
       },
       {
+        "value": "python:3.12",
+        "label": "Python 3.12",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-11-17T11:06:50.041569Z",
+        "size": 411931458
+      },
+      {
         "value": "python:3.12-alpine",
         "label": "Python 3.12-alpine",
         "preInstalled": [
@@ -475,6 +505,21 @@
         ],
         "lastUpdated": "2026-11-12T08:07:07.544781Z",
         "size": 18045287
+      },
+      {
+        "value": "python:3.11",
+        "label": "Python 3.11",
+        "preInstalled": [
+          "Python",
+          "pip",
+          "setuptools",
+          "wheel",
+          "Git",
+          "GCC",
+          "make"
+        ],
+        "lastUpdated": "2026-11-17T14:06:28.279482Z",
+        "size": 410270111
       },
       {
         "value": "python:3.11-alpine",
@@ -502,6 +547,19 @@
     "icon": "🔵",
     "images": [
       {
+        "value": "golang:1.27",
+        "label": "Go 1.27",
+        "preInstalled": [
+          "Go",
+          "Git",
+          "GCC",
+          "ca-certificates",
+          "make"
+        ],
+        "lastUpdated": "2026-11-16T22:23:39.835681Z",
+        "size": 316559442
+      },
+      {
         "value": "golang:1.27-alpine",
         "label": "Go 1.27-alpine",
         "preInstalled": [
@@ -513,8 +571,8 @@
         "size": 75322140
       },
       {
-        "value": "golang:1.27",
-        "label": "Go 1.27",
+        "value": "golang:1.26",
+        "label": "Go 1.26",
         "preInstalled": [
           "Go",
           "Git",
@@ -522,8 +580,8 @@
           "ca-certificates",
           "make"
         ],
-        "lastUpdated": "2026-11-16T07:23:25.060778Z",
-        "size": 316559442
+        "lastUpdated": "2026-11-16T22:22:53.114328Z",
+        "size": 312755293
       },
       {
         "value": "golang:1.26-alpine",
@@ -535,19 +593,6 @@
         ],
         "lastUpdated": "2026-11-16T07:22:49.595575Z",
         "size": 71517736
-      },
-      {
-        "value": "golang:1.26",
-        "label": "Go 1.26",
-        "preInstalled": [
-          "Go",
-          "Git",
-          "GCC",
-          "ca-certificates",
-          "make"
-        ],
-        "lastUpdated": "2026-11-16T07:22:43.702062Z",
-        "size": 312755293
       }
     ]
   },
@@ -643,41 +688,7 @@
     "id": "java",
     "label": "Java",
     "icon": "☕",
-    "images": [
-      {
-        "value": "eclipse-temurin:27",
-        "label": "Java 27",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-11-12T05:15:41.834722Z",
-        "size": 152021663
-      },
-      {
-        "value": "eclipse-temurin:11",
-        "label": "Java 11",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-11-12T05:12:08.532277Z",
-        "size": 208237254
-      },
-      {
-        "value": "eclipse-temurin:8",
-        "label": "Java 8",
-        "preInstalled": [
-          "Java JDK",
-          "jlink",
-          "jshell"
-        ],
-        "lastUpdated": "2026-11-12T02:25:11.093819Z",
-        "size": 117517018
-      }
-    ]
+    "images": []
   },
   {
     "id": "dotnet",
