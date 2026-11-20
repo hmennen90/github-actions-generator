@@ -24,8 +24,8 @@
           "make",
           "Perl"
         ],
-        "lastUpdated": "2026-11-16T01:04:25.715754Z",
-        "size": 43034913
+        "lastUpdated": "2026-11-20T07:04:23.994056Z",
+        "size": 43037935
       },
       {
         "value": "ubuntu:26.04",
@@ -94,8 +94,8 @@
           "Python 3.12",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-11-16T01:04:16.174535Z",
-        "size": 29793223
+        "lastUpdated": "2026-11-20T07:04:18.107911Z",
+        "size": 29793297
       },
       {
         "value": "ubuntu:22.04",
@@ -113,8 +113,8 @@
           "Python 3.10",
           "OpenSSL 3.0"
         ],
-        "lastUpdated": "2026-11-16T01:04:11.682841Z",
-        "size": 30069533
+        "lastUpdated": "2026-11-20T07:04:13.631568Z",
+        "size": 30069815
       }
     ]
   },
@@ -539,7 +539,48 @@
     "id": "php",
     "label": "PHP",
     "icon": "🐘",
-    "images": []
+    "images": [
+      {
+        "value": "php:8.5-alpine",
+        "label": "PHP 8.5-alpine",
+        "preInstalled": [
+          "PHP",
+          "php-cli"
+        ],
+        "lastUpdated": "2026-11-20T06:57:44.497037Z",
+        "size": 47457707
+      },
+      {
+        "value": "php:8.5",
+        "label": "PHP 8.5",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-11-20T00:57:51.905099Z",
+        "size": 189718320
+      },
+      {
+        "value": "php:8.4",
+        "label": "PHP 8.4",
+        "preInstalled": [
+          "PHP",
+          "php-cli",
+          "php-json",
+          "php-mbstring",
+          "php-xml",
+          "Git",
+          "GCC"
+        ],
+        "lastUpdated": "2026-11-20T12:56:41.534283Z",
+        "size": 185778388
+      }
+    ]
   },
   {
     "id": "golang",
